@@ -995,3 +995,1101 @@ e Micael SaydeN
 [19:40:57] [connection] incoming connection: 127.0.0.1:61200 id: 0
 [19:40:57] [join] Small has joined the server (0:127.0.0.1)
 [19:41:11] [part] Small has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:18:28] filterscripts = ""  (string)
+[21:18:28] 
+[21:18:28] Server Plugins
+[21:18:28] --------------
+[21:18:28]  Loading plugin: mysql
+[21:18:28]  >> plugin.mysql: R41-4 successfully loaded.
+[21:18:28]   Loaded.
+[21:18:28]  Loaded 1 plugins.
+
+[21:18:28] 
+[21:18:28] Filterscripts
+[21:18:28] ---------------
+[21:18:28]   Loaded 0 filterscripts.
+
+[21:18:28] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:18:28] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:18:28] Number of vehicle models: 0
+[21:19:09] [connection] 127.0.0.1:63081 requests connection cookie.
+[21:19:10] [connection] incoming connection: 127.0.0.1:63081 id: 0
+[21:19:10] [join] Micael has joined the server (0:127.0.0.1)
+[21:21:42] [part] Micael has left the server (0:1)
+[21:22:07] [connection] 127.0.0.1:58534 requests connection cookie.
+[21:22:08] [connection] incoming connection: 127.0.0.1:58534 id: 0
+[21:22:09] [join] Micael has joined the server (0:127.0.0.1)
+[21:22:34] [part] Micael has left the server (0:1)
+[21:23:08] [connection] 127.0.0.1:54355 requests connection cookie.
+[21:23:09] [connection] incoming connection: 127.0.0.1:54355 id: 0
+[21:23:09] [join] Micael has joined the server (0:127.0.0.1)
+[21:23:24] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:25:05] filterscripts = ""  (string)
+[21:25:05] 
+[21:25:05] Server Plugins
+[21:25:05] --------------
+[21:25:05]  Loading plugin: mysql
+[21:25:05]  >> plugin.mysql: R41-4 successfully loaded.
+[21:25:05]   Loaded.
+[21:25:05]  Loaded 1 plugins.
+
+[21:25:05] 
+[21:25:05] Filterscripts
+[21:25:05] ---------------
+[21:25:05]   Loaded 0 filterscripts.
+
+[21:25:05] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:25:05] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:25:05] Number of vehicle models: 0
+[21:25:26] [connection] 127.0.0.1:52729 requests connection cookie.
+[21:25:27] [connection] incoming connection: 127.0.0.1:52729 id: 0
+[21:25:27] [join] Micael has joined the server (0:127.0.0.1)
+[21:25:46] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:27:24] filterscripts = ""  (string)
+[21:27:24] 
+[21:27:24] Server Plugins
+[21:27:24] --------------
+[21:27:24]  Loading plugin: mysql
+[21:27:24]  >> plugin.mysql: R41-4 successfully loaded.
+[21:27:24]   Loaded.
+[21:27:24]  Loaded 1 plugins.
+
+[21:27:24] 
+[21:27:24] Filterscripts
+[21:27:24] ---------------
+[21:27:24]   Loaded 0 filterscripts.
+
+[21:27:24] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:27:24] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:27:24] Number of vehicle models: 0
+[21:27:45] [connection] 127.0.0.1:55000 requests connection cookie.
+[21:27:46] [connection] incoming connection: 127.0.0.1:55000 id: 0
+[21:27:46] [join] Micael has joined the server (0:127.0.0.1)
+[21:27:56] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:28:31] filterscripts = ""  (string)
+[21:28:31] 
+[21:28:31] Server Plugins
+[21:28:31] --------------
+[21:28:31]  Loading plugin: mysql
+[21:28:31]  >> plugin.mysql: R41-4 successfully loaded.
+[21:28:31]   Loaded.
+[21:28:31]  Loaded 1 plugins.
+
+[21:28:31] 
+[21:28:31] Filterscripts
+[21:28:31] ---------------
+[21:28:31]   Loaded 0 filterscripts.
+
+[21:28:31] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:28:31] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:28:31] Number of vehicle models: 0
+[21:28:53] [connection] 127.0.0.1:58481 requests connection cookie.
+[21:28:54] [connection] incoming connection: 127.0.0.1:58481 id: 0
+[21:28:54] [join] Micael has joined the server (0:127.0.0.1)
+[21:29:07] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:30:11] filterscripts = ""  (string)
+[21:30:11] 
+[21:30:11] Server Plugins
+[21:30:11] --------------
+[21:30:11]  Loading plugin: mysql
+[21:30:11]  >> plugin.mysql: R41-4 successfully loaded.
+[21:30:11]   Loaded.
+[21:30:11]  Loaded 1 plugins.
+
+[21:30:11] 
+[21:30:11] Filterscripts
+[21:30:11] ---------------
+[21:30:11]   Loaded 0 filterscripts.
+
+[21:30:11] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:30:11] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:30:11] Number of vehicle models: 0
+[21:30:36] [connection] 127.0.0.1:62948 requests connection cookie.
+[21:30:37] [connection] incoming connection: 127.0.0.1:62948 id: 0
+[21:30:37] [join] Micael has joined the server (0:127.0.0.1)
+[21:30:49] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:32:45] filterscripts = ""  (string)
+[21:32:45] 
+[21:32:45] Server Plugins
+[21:32:45] --------------
+[21:32:45]  Loading plugin: mysql
+[21:32:45]  >> plugin.mysql: R41-4 successfully loaded.
+[21:32:45]   Loaded.
+[21:32:45]  Loaded 1 plugins.
+
+[21:32:45] 
+[21:32:45] Filterscripts
+[21:32:45] ---------------
+[21:32:45]   Loaded 0 filterscripts.
+
+[21:32:45] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:32:45] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:32:45] Number of vehicle models: 0
+[21:33:05] [connection] 127.0.0.1:65516 requests connection cookie.
+[21:33:06] [connection] incoming connection: 127.0.0.1:65516 id: 0
+[21:33:07] [join] Micael has joined the server (0:127.0.0.1)
+[21:33:17] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:41:07] filterscripts = ""  (string)
+[21:41:07] 
+[21:41:07] Server Plugins
+[21:41:07] --------------
+[21:41:07]  Loading plugin: mysql
+[21:41:07]  >> plugin.mysql: R41-4 successfully loaded.
+[21:41:07]   Loaded.
+[21:41:07]  Loaded 1 plugins.
+
+[21:41:07] 
+[21:41:07] Filterscripts
+[21:41:07] ---------------
+[21:41:07]   Loaded 0 filterscripts.
+
+[21:41:07] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:41:07] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:41:07] Number of vehicle models: 0
+[21:41:33] [connection] 127.0.0.1:53090 requests connection cookie.
+[21:41:34] [connection] incoming connection: 127.0.0.1:53090 id: 0
+[21:41:34] [join] Micael has joined the server (0:127.0.0.1)
+[21:42:17] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:42:30] filterscripts = ""  (string)
+[21:42:30] 
+[21:42:30] Server Plugins
+[21:42:30] --------------
+[21:42:30]  Loading plugin: mysql
+[21:42:30]  >> plugin.mysql: R41-4 successfully loaded.
+[21:42:30]   Loaded.
+[21:42:30]  Loaded 1 plugins.
+
+[21:42:30] 
+[21:42:30] Filterscripts
+[21:42:30] ---------------
+[21:42:30]   Loaded 0 filterscripts.
+
+[21:42:30] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:42:30] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:42:30] Number of vehicle models: 0
+[21:42:51] [connection] 127.0.0.1:59143 requests connection cookie.
+[21:42:52] [connection] incoming connection: 127.0.0.1:59143 id: 0
+[21:42:52] [join] Micael has joined the server (0:127.0.0.1)
+[21:43:05] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:00:14] filterscripts = ""  (string)
+[22:00:14] 
+[22:00:14] Server Plugins
+[22:00:14] --------------
+[22:00:14]  Loading plugin: mysql
+[22:00:14]  >> plugin.mysql: R41-4 successfully loaded.
+[22:00:14]   Loaded.
+[22:00:14]  Loaded 1 plugins.
+
+[22:00:14] 
+[22:00:14] Filterscripts
+[22:00:14] ---------------
+[22:00:14]   Loaded 0 filterscripts.
+
+[22:00:14] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:00:14] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:00:14] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:08:49] filterscripts = ""  (string)
+[22:08:49] 
+[22:08:49] Server Plugins
+[22:08:49] --------------
+[22:08:49]  Loading plugin: mysql
+[22:08:49]  >> plugin.mysql: R41-4 successfully loaded.
+[22:08:49]   Loaded.
+[22:08:49]  Loaded 1 plugins.
+
+[22:08:49] 
+[22:08:49] Filterscripts
+[22:08:49] ---------------
+[22:08:49]   Loaded 0 filterscripts.
+
+[22:08:49] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:08:49] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:08:49] Number of vehicle models: 0
+[22:09:33] [connection] 127.0.0.1:50215 requests connection cookie.
+[22:09:34] [connection] incoming connection: 127.0.0.1:50215 id: 0
+[22:09:34] [join] Micael has joined the server (0:127.0.0.1)
+[22:10:04] [part] Micael has left the server (0:1)
+[22:12:14] [connection] 127.0.0.1:63715 requests connection cookie.
+[22:12:15] [connection] incoming connection: 127.0.0.1:63715 id: 0
+[22:12:15] [join] Micael has joined the server (0:127.0.0.1)
+[22:12:33] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:14:11] filterscripts = ""  (string)
+[22:14:11] 
+[22:14:11] Server Plugins
+[22:14:11] --------------
+[22:14:11]  Loading plugin: mysql
+[22:14:11]  >> plugin.mysql: R41-4 successfully loaded.
+[22:14:11]   Loaded.
+[22:14:11]  Loaded 1 plugins.
+
+[22:14:11] 
+[22:14:11] Filterscripts
+[22:14:11] ---------------
+[22:14:11]   Loaded 0 filterscripts.
+
+[22:14:11] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:14:11] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:14:11] Number of vehicle models: 0
+[22:14:36] [connection] 127.0.0.1:62498 requests connection cookie.
+[22:14:37] [connection] incoming connection: 127.0.0.1:62498 id: 0
+[22:14:37] [join] Micael has joined the server (0:127.0.0.1)
+[22:14:50] &
+[22:14:50] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:22:14] filterscripts = ""  (string)
+[22:22:14] 
+[22:22:14] Server Plugins
+[22:22:14] --------------
+[22:22:14]  Loading plugin: mysql
+[22:22:14]  >> plugin.mysql: R41-4 successfully loaded.
+[22:22:14]   Loaded.
+[22:22:14]  Loaded 1 plugins.
+
+[22:22:14] 
+[22:22:14] Filterscripts
+[22:22:14] ---------------
+[22:22:14]   Loaded 0 filterscripts.
+
+[22:22:14] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:22:14] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:22:14] Number of vehicle models: 0
+[22:22:35] [connection] 127.0.0.1:54825 requests connection cookie.
+[22:22:36] [connection] incoming connection: 127.0.0.1:54825 id: 0
+[22:22:36] [join] Micael has joined the server (0:127.0.0.1)
+[22:22:59] 163.347625 -79.493820 1.578125
+[22:22:59] [part] Micael has left the server (0:1)
+[22:25:58] [connection] 127.0.0.1:53049 requests connection cookie.
+[22:25:59] [connection] incoming connection: 127.0.0.1:53049 id: 0
+[22:25:59] [join] Micael has joined the server (0:127.0.0.1)
+[22:26:20] 133.105163 -70.227249 1.578125
+[22:26:20] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:31:12] filterscripts = ""  (string)
+[22:31:12] 
+[22:31:12] Server Plugins
+[22:31:12] --------------
+[22:31:12]  Loading plugin: mysql
+[22:31:12]  >> plugin.mysql: R41-4 successfully loaded.
+[22:31:12]   Loaded.
+[22:31:12]  Loaded 1 plugins.
+
+[22:31:12] 
+[22:31:12] Filterscripts
+[22:31:12] ---------------
+[22:31:12]   Loaded 0 filterscripts.
+
+[22:31:12] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:31:12] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:31:12] Number of vehicle models: 0
+[22:31:36] [connection] 127.0.0.1:61933 requests connection cookie.
+[22:31:37] [connection] incoming connection: 127.0.0.1:61933 id: 0
+[22:31:37] [join] Micael has joined the server (0:127.0.0.1)
+[22:31:56] 132.000000 -67.291183 1.578125
+[22:31:56] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:33:07] filterscripts = ""  (string)
+[22:33:07] 
+[22:33:07] Server Plugins
+[22:33:07] --------------
+[22:33:07]  Loading plugin: mysql
+[22:33:07]  >> plugin.mysql: R41-4 successfully loaded.
+[22:33:07]   Loaded.
+[22:33:07]  Loaded 1 plugins.
+
+[22:33:07] 
+[22:33:07] Filterscripts
+[22:33:07] ---------------
+[22:33:07]   Loaded 0 filterscripts.
+
+[22:33:07] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:33:07] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:33:07] Number of vehicle models: 0
+[22:33:28] [connection] 127.0.0.1:61163 requests connection cookie.
+[22:33:29] [connection] incoming connection: 127.0.0.1:61163 id: 0
+[22:33:29] [join] Micael has joined the server (0:127.0.0.1)
+[22:33:42] 130.856872 -66.649772 1.578125 Micael
+[22:33:42] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:35:01] filterscripts = ""  (string)
+[22:35:01] 
+[22:35:01] Server Plugins
+[22:35:01] --------------
+[22:35:01]  Loading plugin: mysql
+[22:35:01]  >> plugin.mysql: R41-4 successfully loaded.
+[22:35:01]   Loaded.
+[22:35:01]  Loaded 1 plugins.
+
+[22:35:01] 
+[22:35:01] Filterscripts
+[22:35:01] ---------------
+[22:35:01]   Loaded 0 filterscripts.
+
+[22:35:01] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:35:01] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:35:01] Number of vehicle models: 0
+[22:35:21] [connection] 127.0.0.1:54143 requests connection cookie.
+[22:35:22] [connection] incoming connection: 127.0.0.1:54143 id: 0
+[22:35:22] [join] Micael has joined the server (0:127.0.0.1)
+[22:35:34] 132.711441 -67.421073 1.578125 Micael
+[22:35:34] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:37:06] filterscripts = ""  (string)
+[22:37:06] 
+[22:37:06] Server Plugins
+[22:37:06] --------------
+[22:37:06]  Loading plugin: mysql
+[22:37:06]  >> plugin.mysql: R41-4 successfully loaded.
+[22:37:06]   Loaded.
+[22:37:06]  Loaded 1 plugins.
+
+[22:37:06] 
+[22:37:06] Filterscripts
+[22:37:06] ---------------
+[22:37:06]   Loaded 0 filterscripts.
+
+[22:37:06] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:37:06] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:37:06] Number of vehicle models: 0
+[22:37:26] [connection] 127.0.0.1:52227 requests connection cookie.
+[22:37:27] [connection] incoming connection: 127.0.0.1:52227 id: 0
+[22:37:27] [join] Micael has joined the server (0:127.0.0.1)
+[22:37:40] 132.312210 -65.679534 1.578125 Micael
+[22:37:40] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:40:01] filterscripts = ""  (string)
+[22:40:01] 
+[22:40:01] Server Plugins
+[22:40:01] --------------
+[22:40:01]  Loading plugin: mysql
+[22:40:01]  >> plugin.mysql: R41-4 successfully loaded.
+[22:40:01]   Loaded.
+[22:40:01]  Loaded 1 plugins.
+
+[22:40:02] 
+[22:40:02] Filterscripts
+[22:40:02] ---------------
+[22:40:02]   Loaded 0 filterscripts.
+
+[22:40:02] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:40:02] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:40:02] Number of vehicle models: 0
+[22:40:22] [connection] 127.0.0.1:58015 requests connection cookie.
+[22:40:23] [connection] incoming connection: 127.0.0.1:58015 id: 0
+[22:40:23] [join] Micael has joined the server (0:127.0.0.1)
+[22:40:53] 140.524200 -74.820732 1.429687 Micael
+[22:40:53] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:42:29] filterscripts = ""  (string)
+[22:42:29] 
+[22:42:29] Server Plugins
+[22:42:29] --------------
+[22:42:29]  Loading plugin: mysql
+[22:42:29]  >> plugin.mysql: R41-4 successfully loaded.
+[22:42:29]   Loaded.
+[22:42:29]  Loaded 1 plugins.
+
+[22:42:29] 
+[22:42:29] Filterscripts
+[22:42:29] ---------------
+[22:42:29]   Loaded 0 filterscripts.
+
+[22:42:29] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:42:29] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:42:29] Number of vehicle models: 0
+[22:42:52] [connection] 127.0.0.1:62765 requests connection cookie.
+[22:42:53] [connection] incoming connection: 127.0.0.1:62765 id: 0
+[22:42:53] [join] Micael has joined the server (0:127.0.0.1)
+[22:43:13] 135.306457 -92.353813 1.429687 Micael
+[22:43:13] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:44:58] filterscripts = ""  (string)
+[22:44:58] 
+[22:44:58] Server Plugins
+[22:44:58] --------------
+[22:44:58]  Loading plugin: mysql
+[22:44:58]  >> plugin.mysql: R41-4 successfully loaded.
+[22:44:58]   Loaded.
+[22:44:58]  Loaded 1 plugins.
+
+[22:44:58] 
+[22:44:58] Filterscripts
+[22:44:58] ---------------
+[22:44:58]   Loaded 0 filterscripts.
+
+[22:44:58] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:44:58] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:44:58] Number of vehicle models: 0
+[22:45:21] [connection] 127.0.0.1:53451 requests connection cookie.
+[22:45:22] [connection] incoming connection: 127.0.0.1:53451 id: 0
+[22:45:22] [join] Micael has joined the server (0:127.0.0.1)
+[22:45:46] 183.532012 -74.648895 1.429687 Micael
+[22:45:46] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:46:40] filterscripts = ""  (string)
+[22:46:40] 
+[22:46:40] Server Plugins
+[22:46:40] --------------
+[22:46:40]  Loading plugin: mysql
+[22:46:40]  >> plugin.mysql: R41-4 successfully loaded.
+[22:46:40]   Loaded.
+[22:46:40]  Loaded 1 plugins.
+
+[22:46:40] 
+[22:46:40] Filterscripts
+[22:46:40] ---------------
+[22:46:40]   Loaded 0 filterscripts.
+
+[22:46:40] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:46:40] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:46:40] Number of vehicle models: 0
+[22:47:01] [connection] 127.0.0.1:61693 requests connection cookie.
+[22:47:02] [connection] incoming connection: 127.0.0.1:61693 id: 0
+[22:47:02] [join] Micael has joined the server (0:127.0.0.1)
+[22:47:25] 132.941955 -94.947090 1.429687 Micael
+[22:47:25] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:48:50] filterscripts = ""  (string)
+[22:48:50] 
+[22:48:50] Server Plugins
+[22:48:50] --------------
+[22:48:50]  Loading plugin: mysql
+[22:48:50]  >> plugin.mysql: R41-4 successfully loaded.
+[22:48:50]   Loaded.
+[22:48:50]  Loaded 1 plugins.
+
+[22:48:50] 
+[22:48:50] Filterscripts
+[22:48:50] ---------------
+[22:48:50]   Loaded 0 filterscripts.
+
+[22:48:50] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:48:50] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:48:50] Number of vehicle models: 0
+[22:49:11] [connection] 127.0.0.1:58022 requests connection cookie.
+[22:49:12] [connection] incoming connection: 127.0.0.1:58022 id: 0
+[22:49:12] [join] Micael has joined the server (0:127.0.0.1)
+[22:49:33] 135.023895 -110.070075 1.429687 Micael
+[22:49:33] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:51:38] filterscripts = ""  (string)
+[22:51:38] 
+[22:51:38] Server Plugins
+[22:51:38] --------------
+[22:51:38]  Loading plugin: mysql
+[22:51:38]  >> plugin.mysql: R41-4 successfully loaded.
+[22:51:38]   Loaded.
+[22:51:38]  Loaded 1 plugins.
+
+[22:51:38] 
+[22:51:38] Filterscripts
+[22:51:38] ---------------
+[22:51:38]   Loaded 0 filterscripts.
+
+[22:51:38] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:51:38] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:51:38] Number of vehicle models: 0
+[22:51:59] [connection] 127.0.0.1:49725 requests connection cookie.
+[22:52:00] [connection] incoming connection: 127.0.0.1:49725 id: 0
+[22:52:00] [join] Micael has joined the server (0:127.0.0.1)
+[22:52:16] 137.898971 -103.256591 1.578125 Micael
+[22:52:16] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:54:50] filterscripts = ""  (string)
+[22:54:50] 
+[22:54:50] Server Plugins
+[22:54:50] --------------
+[22:54:50]  Loading plugin: mysql
+[22:54:50]  >> plugin.mysql: R41-4 successfully loaded.
+[22:54:50]   Loaded.
+[22:54:50]  Loaded 1 plugins.
+
+[22:54:50] 
+[22:54:50] Filterscripts
+[22:54:50] ---------------
+[22:54:50]   Loaded 0 filterscripts.
+
+[22:54:50] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:54:50] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:54:50] Number of vehicle models: 0
+[22:55:10] [connection] 127.0.0.1:53521 requests connection cookie.
+[22:55:11] [connection] incoming connection: 127.0.0.1:53521 id: 0
+[22:55:11] [join] Micael has joined the server (0:127.0.0.1)
+[22:55:27] 133.443679 -106.100196 1.429687 Micael
+[22:55:27] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:57:24] filterscripts = ""  (string)
+[22:57:24] 
+[22:57:24] Server Plugins
+[22:57:24] --------------
+[22:57:24]  Loading plugin: mysql
+[22:57:24]  >> plugin.mysql: R41-4 successfully loaded.
+[22:57:24]   Loaded.
+[22:57:24]  Loaded 1 plugins.
+
+[22:57:24] 
+[22:57:24] Filterscripts
+[22:57:24] ---------------
+[22:57:24]   Loaded 0 filterscripts.
+
+[22:57:24] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[22:57:24] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[22:57:24] Number of vehicle models: 0
+[22:57:43] [connection] 127.0.0.1:58635 requests connection cookie.
+[22:57:44] [connection] incoming connection: 127.0.0.1:58635 id: 0
+[22:57:44] [join] Micael has joined the server (0:127.0.0.1)
+[22:59:57] 136.958908 -79.326545 1.429687 Micael
+[22:59:57] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:00:08] filterscripts = ""  (string)
+[23:00:08] 
+[23:00:08] Server Plugins
+[23:00:08] --------------
+[23:00:08]  Loading plugin: mysql
+[23:00:08]  >> plugin.mysql: R41-4 successfully loaded.
+[23:00:08]   Loaded.
+[23:00:08]  Loaded 1 plugins.
+
+[23:00:08] 
+[23:00:08] Filterscripts
+[23:00:08] ---------------
+[23:00:08]   Loaded 0 filterscripts.
+
+[23:00:08] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:00:08] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[23:00:08] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:00:11] filterscripts = ""  (string)
+[23:00:11] 
+[23:00:11] Server Plugins
+[23:00:11] --------------
+[23:00:11]  Loading plugin: mysql
+[23:00:11]  >> plugin.mysql: R41-4 successfully loaded.
+[23:00:11]   Loaded.
+[23:00:11]  Loaded 1 plugins.
+
+[23:00:11] 
+[23:00:11] Filterscripts
+[23:00:11] ---------------
+[23:00:11]   Loaded 0 filterscripts.
+
+[23:00:11] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:00:11] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[23:00:11] Number of vehicle models: 0
+[23:00:35] [connection] 127.0.0.1:60750 requests connection cookie.
+[23:00:36] [connection] incoming connection: 127.0.0.1:60750 id: 0
+[23:00:36] [join] Micael has joined the server (0:127.0.0.1)
+[23:00:47] 0.000000 0.000000 -56.292312 Micael
+[23:00:47] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:03:06] filterscripts = ""  (string)
+[23:03:06] 
+[23:03:06] Server Plugins
+[23:03:06] --------------
+[23:03:06]  Loading plugin: mysql
+[23:03:06]  >> plugin.mysql: R41-4 successfully loaded.
+[23:03:06]   Loaded.
+[23:03:06]  Loaded 1 plugins.
+
+[23:03:06] 
+[23:03:06] Filterscripts
+[23:03:06] ---------------
+[23:03:06]   Loaded 0 filterscripts.
+
+[23:03:07] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:03:07] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[23:03:07] Number of vehicle models: 0
+[23:03:26] [connection] 127.0.0.1:50680 requests connection cookie.
+[23:03:27] [connection] incoming connection: 127.0.0.1:50680 id: 0
+[23:03:28] [join] Micael has joined the server (0:127.0.0.1)
+[23:03:35] 0.000000 0.000000 -34.250476 Micael
+[23:03:35] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:07:33] filterscripts = ""  (string)
+[23:07:33] 
+[23:07:33] Server Plugins
+[23:07:33] --------------
+[23:07:33]  Loading plugin: mysql
+[23:07:33]  >> plugin.mysql: R41-4 successfully loaded.
+[23:07:33]   Loaded.
+[23:07:33]  Loaded 1 plugins.
+
+[23:07:33] 
+[23:07:33] Filterscripts
+[23:07:33] ---------------
+[23:07:33]   Loaded 0 filterscripts.
+
+[23:07:33] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:07:33] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[23:07:33] Number of vehicle models: 0
+[23:07:54] [connection] 127.0.0.1:49390 requests connection cookie.
+[23:07:55] [connection] incoming connection: 127.0.0.1:49390 id: 0
+[23:07:56] [join] Micael has joined the server (0:127.0.0.1)
+[23:08:44] 50.000000 50.000000 50.000000 Micael
+[23:08:44] [part] Micael has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:09:45] filterscripts = ""  (string)
+[23:09:45] 
+[23:09:45] Server Plugins
+[23:09:45] --------------
+[23:09:45]  Loading plugin: mysql
+[23:09:45]  >> plugin.mysql: R41-4 successfully loaded.
+[23:09:45]   Loaded.
+[23:09:45]  Loaded 1 plugins.
+
+[23:09:45] 
+[23:09:45] Filterscripts
+[23:09:45] ---------------
+[23:09:45]   Loaded 0 filterscripts.
+
+[23:09:45] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:09:45] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[23:09:45] Number of vehicle models: 0
+[23:10:15] [connection] 127.0.0.1:58010 requests connection cookie.
+[23:10:16] [connection] incoming connection: 127.0.0.1:58010 id: 0
+[23:10:16] [join] Micael has joined the server (0:127.0.0.1)
+[23:10:32] 130.243698 -106.935150 1.429687 Micael
+[23:10:32] [part] Micael has left the server (0:1)
+[23:11:03] [connection] 127.0.0.1:60997 requests connection cookie.
+[23:11:04] [connection] incoming connection: 127.0.0.1:60997 id: 0
+[23:11:05] [join] Micael has joined the server (0:127.0.0.1)
+[23:11:24] 127.760551 -106.840995 1.578125 Micael
+[23:11:24] [part] Micael has left the server (0:1)
+[23:11:51] [connection] 127.0.0.1:55354 requests connection cookie.
+[23:11:52] [connection] incoming connection: 127.0.0.1:55354 id: 0
+[23:11:53] [join] Micael has joined the server (0:127.0.0.1)
+[23:12:00] 127.433731 -106.916839 1.578125 Micael
+[23:12:00] [part] Micael has left the server (0:1)
+[23:12:35] [connection] 127.0.0.1:59759 requests connection cookie.
+[23:12:36] [connection] incoming connection: 127.0.0.1:59759 id: 0
+[23:12:36] [join] Tester has joined the server (0:127.0.0.1)
+[23:14:12] 0.000000 0.000000 0.000000 Tester
+[23:14:12] [part] Tester has left the server (0:2)
+[23:14:46] [connection] 127.0.0.1:49585 requests connection cookie.
+[23:14:47] [connection] incoming connection: 127.0.0.1:49585 id: 0
+[23:14:47] [join] Tester has joined the server (0:127.0.0.1)
+[23:15:05] 0.000000 0.000000 0.000000 Tester
+[23:15:05] [part] Tester has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:15:22] filterscripts = ""  (string)
+[23:15:22] 
+[23:15:22] Server Plugins
+[23:15:22] --------------
+[23:15:22]  Loading plugin: mysql
+[23:15:22]  >> plugin.mysql: R41-4 successfully loaded.
+[23:15:22]   Loaded.
+[23:15:22]  Loaded 1 plugins.
+
+[23:15:22] 
+[23:15:22] Filterscripts
+[23:15:22] ---------------
+[23:15:22]   Loaded 0 filterscripts.
+
+[23:15:22] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:15:22] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[23:15:22] Number of vehicle models: 0
+[23:15:42] [connection] 127.0.0.1:62278 requests connection cookie.
+[23:15:43] [connection] incoming connection: 127.0.0.1:62278 id: 0
+[23:15:43] [join] Tester has joined the server (0:127.0.0.1)
+[23:16:17] 138.078475 -115.544998 1.578125 Tester
+[23:16:17] [part] Tester has left the server (0:1)

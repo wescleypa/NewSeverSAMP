@@ -34,3 +34,53 @@
 [19:26:40] [WARNING] mysql_connect: no password specified
 [19:35:58] [WARNING] mysql_connect: no password specified
 [19:40:35] [WARNING] mysql_connect: no password specified
+[21:18:28] [WARNING] mysql_connect: no password specified
+[21:19:25] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:20:17] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:22:25] [ERROR] cache_get_value_name: field 'money' not found
+[21:23:13] [ERROR] cache_get_value_name: field 'money' not found
+[21:25:05] [WARNING] mysql_connect: no password specified
+[21:25:34] [ERROR] cache_get_value_name: field 'money' not found
+[21:27:24] [WARNING] mysql_connect: no password specified
+[21:27:50] [ERROR] cache_get_value_name: field 'money' not found
+[21:28:31] [WARNING] mysql_connect: no password specified
+[21:28:57] [ERROR] cache_get_value_name: field 'money' not found
+[21:30:11] [WARNING] mysql_connect: no password specified
+[21:32:45] [WARNING] mysql_connect: no password specified
+[21:41:07] [WARNING] mysql_connect: no password specified
+[21:42:30] [WARNING] mysql_connect: no password specified
+[22:00:14] [WARNING] mysql_connect: no password specified
+[22:08:49] [WARNING] mysql_connect: no password specified
+[22:10:04] [ERROR] error #1064 while executing query "UPDATE `contas` SET`money`='6000', `level`='65', `dX`='&ç": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&ç' at line 1
+[22:12:33] [ERROR] error #1064 while executing query "UPDATE `contas` SET`money`='6000', `level`='65', `dX`='": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+[22:14:11] [WARNING] mysql_connect: no password specified
+[22:14:50] [ERROR] error #1064 while executing query "UPDATE `contas` SET`money`='6000', `level`='65', `dX`='&ù": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&ù' at line 1
+[22:22:14] [WARNING] mysql_connect: no password specified
+[22:22:59] [ERROR] error #1064 while executing query "UPDATE `contas` SET`money`='6000', `level`='65', `dX`='163.347625', `dY`='-79.493820', `dZ`='1.578125', `dA`='21.306886": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''21.306886' at line 1
+[22:26:20] [ERROR] error #1064 while executing query "UPDATE `contas` SET`money`='6000', `level`='65', `dX`='133.105163', `dY`='-70.227249', `dZ`='1.578125', `dA`='194.89514": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''194.89514' at line 1
+[22:31:12] [WARNING] mysql_connect: no password specified
+[22:31:56] [ERROR] error #1064 while executing query "UPDATE `contas` SET`money`='0', `level`='0', `dX`='132.000000', `dY`='-67.291183', `dZ`='1.578125', `dA`='0.000000', `d": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`d' at line 1
+[22:33:07] [WARNING] mysql_connect: no password specified
+[22:33:42] [ERROR] error #1064 while executing query "UPDATE `contas` SET`money`='0', `level`='0', `dI`='1124260700'WHERE `username`='Ø": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ø' at line 1
+[22:35:01] [WARNING] mysql_connect: no password specified
+[22:37:06] [WARNING] mysql_connect: no password specified
+[22:40:02] [WARNING] mysql_connect: no password specified
+[22:42:29] [WARNING] mysql_connect: no password specified
+[22:44:58] [WARNING] mysql_connect: no password specified
+[22:45:46] [ERROR] error #1064 while executing query "UPDATE `contas` SET `money`='5', `level`='5',`dI`='0', `dX`='183.532012', `dY`='-74.648895', `dZ`='1.429687', `dA`='49.": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''49.' at line 1
+[22:46:40] [WARNING] mysql_connect: no password specified
+[22:48:50] [WARNING] mysql_connect: no password specified
+[22:51:38] [WARNING] mysql_connect: no password specified
+[22:54:50] [WARNING] mysql_connect: no password specified
+[22:57:24] [WARNING] mysql_connect: no password specified
+[23:00:08] [WARNING] mysql_connect: no password specified
+[23:00:11] [WARNING] mysql_connect: no password specified
+[23:03:06] [WARNING] mysql_connect: no password specified
+[23:07:33] [WARNING] mysql_connect: no password specified
+[23:09:45] [WARNING] mysql_connect: no password specified
+[23:12:41] [ERROR] error #1064 while executing query "INSERT INTO `contas`(`username`, `password`,`money`, `level`, `dX`, `dY`, `dZ`, `dA`, `dI`) VALUES ('Tester', '087542',": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[23:12:41] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[23:14:52] [ERROR] error #1064 while executing query "INSERT INTO `contas`(`username`, `password`,`money`, `level`, `dX`, `dY`, `dZ`, `dA`, `dI`) VALUES ('Tester', '087542',": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[23:14:52] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[23:15:22] [WARNING] mysql_connect: no password specified
+[23:15:46] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
