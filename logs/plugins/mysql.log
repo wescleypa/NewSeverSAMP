@@ -1,0 +1,36 @@
+[17:44:20] [ERROR] mysql_connect: handle error: no database specified
+[17:46:22] [WARNING] mysql_connect: no password specified
+[17:47:08] [WARNING] mysql_connect: no password specified
+[17:49:03] [WARNING] mysql_connect: no password specified
+[17:49:53] [WARNING] mysql_connect: no password specified
+[17:51:39] [WARNING] mysql_connect: no password specified
+[18:11:02] [WARNING] mysql_connect: no password specified
+[18:11:40] [ERROR] mysql_query: invalid connection handle '0'
+[18:11:40] [ERROR] cache_get_row_count: no active cache
+[18:13:25] [WARNING] mysql_connect: no password specified
+[18:13:46] [ERROR] mysql_query: invalid connection handle '0'
+[18:13:46] [ERROR] cache_get_row_count: no active cache
+[18:15:58] [WARNING] mysql_connect: no password specified
+[18:16:21] [ERROR] error #1054 while executing query "SELECT `username`, `password` FROM `contas` WHERE username=``": Unknown column '' in 'where clause'
+[18:16:21] [ERROR] cache_get_row_count: no active cache
+[18:19:13] [WARNING] mysql_connect: no password specified
+[18:21:18] [WARNING] mysql_connect: no password specified
+[18:22:54] [WARNING] mysql_connect: no password specified
+[18:23:15] [ERROR] error #1054 while executing query "SELECT `username`, `password` FROM `contas` WHERE username=`Small`": Unknown column 'Small' in 'where clause'
+[18:23:15] [ERROR] cache_get_row_count: no active cache
+[18:24:25] [WARNING] mysql_connect: no password specified
+[18:24:46] [ERROR] error #1054 while executing query "SELECT `username`, `password` FROM `contas` WHERE username=`Small`": Unknown column 'Small' in 'where clause'
+[18:24:46] [ERROR] cache_get_row_count: no active cache
+[18:25:22] [WARNING] mysql_connect: no password specified
+[18:25:43] [ERROR] error #1054 while executing query "SELECT `username`, `password` FROM `contas` WHERE username=`'Small'`": Unknown column ''Small'' in 'where clause'
+[18:25:43] [ERROR] cache_get_row_count: no active cache
+[18:26:41] [WARNING] mysql_connect: no password specified
+[18:27:26] [WARNING] mysql_connect: no password specified
+[18:38:53] [WARNING] mysql_connect: no password specified
+[18:42:39] [WARNING] mysql_connect: no password specified
+[19:09:17] [WARNING] mysql_connect: no password specified
+[19:15:42] [WARNING] mysql_connect: no password specified
+[19:24:36] [WARNING] mysql_connect: no password specified
+[19:26:40] [WARNING] mysql_connect: no password specified
+[19:35:58] [WARNING] mysql_connect: no password specified
+[19:40:35] [WARNING] mysql_connect: no password specified

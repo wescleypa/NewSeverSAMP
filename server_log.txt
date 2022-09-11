@@ -1,0 +1,997 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:50:05] Error: Your password must be changed from the default password, please change it.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:51:01] 
+[16:51:01] Server Plugins
+[16:51:01] --------------
+[16:51:01]  Loaded 0 plugins.
+
+[16:51:01] 
+[16:51:01] Filterscripts
+[16:51:01] ---------------
+[16:51:01]   Loading filterscript 'gl_actions.amx'...
+[16:51:01]   Loading filterscript 'gl_realtime.amx'...
+[16:51:01]   Loading filterscript 'gl_property.amx'...
+[16:51:01] 
+-----------------------------------
+[16:51:01] Grand Larceny Property Filterscript		
+[16:51:01] -----------------------------------
+
+[16:51:01]   Loading filterscript 'gl_mapicon.amx'...
+[16:51:01]   Loading filterscript 'ls_elevator.amx'...
+[16:51:01]   Loading filterscript 'attachments.amx'...
+[16:51:01]   Loading filterscript 'skinchanger.amx'...
+[16:51:01] 
+--Admin Player Skin Changer Loaded
+
+[16:51:01]   Loading filterscript 'vspawner.amx'...
+[16:51:01] 
+--Admin Vehicle Spawner Loaded
+
+[16:51:01]   Loading filterscript 'ls_mall.amx'...
+[16:51:01]   Loading filterscript 'ls_beachside.amx'...
+[16:51:01] 
+
+[16:51:01]   |---------------------------------------------------
+[16:51:01]   |--- LS BeachSide Filterscript
+[16:51:01]   |--  Script v1.03
+[16:51:01]   |--  19th April 2015
+[16:51:01]   |---------------------------------------------------
+[16:51:01]   |--  LS BeachSide Building Elevator created
+[16:51:01]   |---------------------------------------------------
+[16:51:01]   Loaded 10 filterscripts.
+
+[16:51:01] Loaded 3 vehicles from: vehicles/trains.txt
+[16:51:01] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:51:01] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:51:01] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:51:01] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:51:01] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:51:01] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:51:01] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:51:01] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:51:01] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:51:01] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:51:01] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:51:01] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:51:01] Loaded 168 vehicles from: vehicles/bone.txt
+[16:51:01] Loaded 61 vehicles from: vehicles/flint.txt
+[16:51:01] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:51:01] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:51:01] Total vehicles from files: 1781
+[16:51:01] Reading File: blank
+[16:51:01] Reading File: properties/houses.txt
+[16:51:01] Reading File: properties/businesses.txt
+[16:51:01] Reading File: properties/banks.txt
+[16:51:01] Reading File: properties/police.txt
+[16:51:01] 
+---------------------------------------
+[16:51:01] Running Grand Larceny - by the SA-MP team
+
+[16:51:01] ---------------------------------------
+
+[16:51:01] Number of vehicle models: 173
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:54:56] filterscripts = ""  (string)
+[16:54:56] 
+[16:54:56] Server Plugins
+[16:54:56] --------------
+[16:54:56]  Loaded 0 plugins.
+
+[16:54:56] 
+[16:54:56] Filterscripts
+[16:54:56] ---------------
+[16:54:56]   Loaded 0 filterscripts.
+
+[16:54:56] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[16:54:56] 
+----------------------------------
+[16:54:56]   Bare Script
+
+[16:54:56] ----------------------------------
+
+[16:54:56] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:56:40] filterscripts = ""  (string)
+[16:56:40] 
+[16:56:40] Server Plugins
+[16:56:40] --------------
+[16:56:40]  Loaded 0 plugins.
+
+[16:56:40] 
+[16:56:40] Filterscripts
+[16:56:40] ---------------
+[16:56:40]   Loaded 0 filterscripts.
+
+[16:56:40] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[16:56:40] 
+----------------------------------
+[16:56:40]   Bare Script
+
+[16:56:40] ----------------------------------
+
+[16:56:40] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:43:39] filterscripts = ""  (string)
+[17:43:39] 
+[17:43:39] Server Plugins
+[17:43:39] --------------
+[17:43:39]  Loading plugin: mysql
+[17:43:39]  >> plugin.mysql: R41-4 successfully loaded.
+[17:43:39]   Loaded.
+[17:43:39]  Loading plugin: streamer
+[17:43:40] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:43:40]   Loaded.
+[17:43:40]  Loaded 2 plugins.
+
+[17:43:40] I couldn't load any gamemode scripts. Please verify your server.cfg
+[17:43:40] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:44:20] filterscripts = ""  (string)
+[17:44:20] 
+[17:44:20] Server Plugins
+[17:44:20] --------------
+[17:44:20]  Loading plugin: mysql
+[17:44:20]  >> plugin.mysql: R41-4 successfully loaded.
+[17:44:20]   Loaded.
+[17:44:20]  Loaded 1 plugins.
+
+[17:44:20] 
+[17:44:20] Filterscripts
+[17:44:20] ---------------
+[17:44:20]   Loaded 0 filterscripts.
+
+[17:44:20] [MySQL] Erro ao conectar com Banco de dados.
+[17:44:20] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[17:44:20] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+[17:44:20] Script[gamemodes/server.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[17:44:20] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:46:22] filterscripts = ""  (string)
+[17:46:22] 
+[17:46:22] Server Plugins
+[17:46:22] --------------
+[17:46:22]  Loading plugin: mysql
+[17:46:22]  >> plugin.mysql: R41-4 successfully loaded.
+[17:46:22]   Loaded.
+[17:46:22]  Loaded 1 plugins.
+
+[17:46:22] 
+[17:46:22] Filterscripts
+[17:46:22] ---------------
+[17:46:22]   Loaded 0 filterscripts.
+
+[17:46:22] [MySQL] Banco de dados conectado com sucesso.
+[17:46:22] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[17:46:22] [!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[17:46:22] Script[gamemodes/server.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[17:46:22] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:47:08] filterscripts = ""  (string)
+[17:47:08] 
+[17:47:08] Server Plugins
+[17:47:08] --------------
+[17:47:08]  Loading plugin: mysql
+[17:47:08]  >> plugin.mysql: R41-4 successfully loaded.
+[17:47:08]   Loaded.
+[17:47:08]  Loaded 1 plugins.
+
+[17:47:08] 
+[17:47:08] Filterscripts
+[17:47:08] ---------------
+[17:47:08]   Loaded 0 filterscripts.
+
+[17:47:08] 
+{000000}[MySQL] Banco de dados conectado com sucesso.
+
+[17:47:08] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[17:47:08] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[17:47:08] Script[gamemodes/server.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[17:47:08] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:49:03] filterscripts = ""  (string)
+[17:49:03] 
+[17:49:03] Server Plugins
+[17:49:03] --------------
+[17:49:03]  Loading plugin: mysql
+[17:49:03]  >> plugin.mysql: R41-4 successfully loaded.
+[17:49:03]   Loaded.
+[17:49:03]  Loaded 1 plugins.
+
+[17:49:03] 
+[17:49:03] Filterscripts
+[17:49:03] ---------------
+[17:49:03]   Loaded 0 filterscripts.
+
+[17:49:03] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[17:49:03] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[17:49:03] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[17:49:03] Script[gamemodes/server.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[17:49:03] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:49:53] filterscripts = ""  (string)
+[17:49:53] 
+[17:49:53] Server Plugins
+[17:49:53] --------------
+[17:49:53]  Loading plugin: mysql
+[17:49:53]  >> plugin.mysql: R41-4 successfully loaded.
+[17:49:53]   Loaded.
+[17:49:53]  Loaded 1 plugins.
+
+[17:49:53] 
+[17:49:53] Filterscripts
+[17:49:53] ---------------
+[17:49:53]   Loaded 0 filterscripts.
+
+[17:49:53] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[17:49:53] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[17:49:53] Script[gamemodes/server.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[17:49:53] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:51:38] filterscripts = ""  (string)
+[17:51:38] 
+[17:51:38] Server Plugins
+[17:51:38] --------------
+[17:51:38]  Loading plugin: mysql
+[17:51:39]  >> plugin.mysql: R41-4 successfully loaded.
+[17:51:39]   Loaded.
+[17:51:39]  Loaded 1 plugins.
+
+[17:51:39] 
+[17:51:39] Filterscripts
+[17:51:39] ---------------
+[17:51:39]   Loaded 0 filterscripts.
+
+[17:51:39] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[17:51:39] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[17:51:39] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:11:02] filterscripts = ""  (string)
+[18:11:02] 
+[18:11:02] Server Plugins
+[18:11:02] --------------
+[18:11:02]  Loading plugin: mysql
+[18:11:02]  >> plugin.mysql: R41-4 successfully loaded.
+[18:11:02]   Loaded.
+[18:11:02]  Loaded 1 plugins.
+
+[18:11:02] 
+[18:11:02] Filterscripts
+[18:11:02] ---------------
+[18:11:02]   Loaded 0 filterscripts.
+
+[18:11:02] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:11:02] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:11:02] Number of vehicle models: 0
+[18:11:38] [connection] 127.0.0.1:63896 requests connection cookie.
+[18:11:39] [connection] incoming connection: 127.0.0.1:63896 id: 0
+[18:11:40] [join] Small has joined the server (0:127.0.0.1)
+[18:12:11] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:13:25] filterscripts = ""  (string)
+[18:13:25] 
+[18:13:25] Server Plugins
+[18:13:25] --------------
+[18:13:25]  Loading plugin: mysql
+[18:13:25]  >> plugin.mysql: R41-4 successfully loaded.
+[18:13:25]   Loaded.
+[18:13:25]  Loaded 1 plugins.
+
+[18:13:25] 
+[18:13:25] Filterscripts
+[18:13:25] ---------------
+[18:13:25]   Loaded 0 filterscripts.
+
+[18:13:25] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:13:25] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:13:25] Number of vehicle models: 0
+[18:13:45] [connection] 127.0.0.1:55537 requests connection cookie.
+[18:13:46] [connection] incoming connection: 127.0.0.1:55537 id: 0
+[18:13:46] [join] Small has joined the server (0:127.0.0.1)
+[18:13:51] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:15:58] filterscripts = ""  (string)
+[18:15:58] 
+[18:15:58] Server Plugins
+[18:15:58] --------------
+[18:15:58]  Loading plugin: mysql
+[18:15:58]  >> plugin.mysql: R41-4 successfully loaded.
+[18:15:58]   Loaded.
+[18:15:58]  Loaded 1 plugins.
+
+[18:15:58] 
+[18:15:58] Filterscripts
+[18:15:58] ---------------
+[18:15:58]   Loaded 0 filterscripts.
+
+[18:15:58] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:15:58] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:15:58] Number of vehicle models: 0
+[18:16:20] [connection] 127.0.0.1:61264 requests connection cookie.
+[18:16:21] [connection] incoming connection: 127.0.0.1:61264 id: 0
+[18:16:21] [join] Small has joined the server (0:127.0.0.1)
+[18:16:29] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:19:13] filterscripts = ""  (string)
+[18:19:13] 
+[18:19:13] Server Plugins
+[18:19:13] --------------
+[18:19:13]  Loading plugin: mysql
+[18:19:13]  >> plugin.mysql: R41-4 successfully loaded.
+[18:19:13]   Loaded.
+[18:19:13]  Loaded 1 plugins.
+
+[18:19:13] 
+[18:19:13] Filterscripts
+[18:19:13] ---------------
+[18:19:13]   Loaded 0 filterscripts.
+
+[18:19:13] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:19:13] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:19:13] Number of vehicle models: 0
+[18:19:34] [connection] 127.0.0.1:57294 requests connection cookie.
+[18:19:35] [connection] incoming connection: 127.0.0.1:57294 id: 0
+[18:19:36] [join] Small has joined the server (0:127.0.0.1)
+[18:19:40] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:21:18] filterscripts = ""  (string)
+[18:21:18] 
+[18:21:18] Server Plugins
+[18:21:18] --------------
+[18:21:18]  Loading plugin: mysql
+[18:21:18]  >> plugin.mysql: R41-4 successfully loaded.
+[18:21:18]   Loaded.
+[18:21:18]  Loaded 1 plugins.
+
+[18:21:18] 
+[18:21:18] Filterscripts
+[18:21:18] ---------------
+[18:21:18]   Loaded 0 filterscripts.
+
+[18:21:18] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:21:18] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:21:18] Number of vehicle models: 0
+[18:21:38] [connection] 127.0.0.1:50948 requests connection cookie.
+[18:21:39] [connection] incoming connection: 127.0.0.1:50948 id: 0
+[18:21:39] [join] Small has joined the server (0:127.0.0.1)
+[18:21:41] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:22:54] filterscripts = ""  (string)
+[18:22:54] 
+[18:22:54] Server Plugins
+[18:22:54] --------------
+[18:22:54]  Loading plugin: mysql
+[18:22:54]  >> plugin.mysql: R41-4 successfully loaded.
+[18:22:54]   Loaded.
+[18:22:54]  Loaded 1 plugins.
+
+[18:22:54] 
+[18:22:54] Filterscripts
+[18:22:54] ---------------
+[18:22:54]   Loaded 0 filterscripts.
+
+[18:22:54] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:22:54] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:22:54] Number of vehicle models: 0
+[18:23:14] [connection] 127.0.0.1:59156 requests connection cookie.
+[18:23:15] [connection] incoming connection: 127.0.0.1:59156 id: 0
+[18:23:15] [join] Small has joined the server (0:127.0.0.1)
+[18:23:19] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:24:25] filterscripts = ""  (string)
+[18:24:25] 
+[18:24:25] Server Plugins
+[18:24:25] --------------
+[18:24:25]  Loading plugin: mysql
+[18:24:25]  >> plugin.mysql: R41-4 successfully loaded.
+[18:24:25]   Loaded.
+[18:24:25]  Loaded 1 plugins.
+
+[18:24:25] 
+[18:24:25] Filterscripts
+[18:24:25] ---------------
+[18:24:25]   Loaded 0 filterscripts.
+
+[18:24:25] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:24:25] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:24:25] Number of vehicle models: 0
+[18:24:45] [connection] 127.0.0.1:60480 requests connection cookie.
+[18:24:46] [connection] incoming connection: 127.0.0.1:60480 id: 0
+[18:24:46] [join] Small has joined the server (0:127.0.0.1)
+[18:24:49] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:25:21] filterscripts = ""  (string)
+[18:25:21] 
+[18:25:21] Server Plugins
+[18:25:21] --------------
+[18:25:21]  Loading plugin: mysql
+[18:25:22]  >> plugin.mysql: R41-4 successfully loaded.
+[18:25:22]   Loaded.
+[18:25:22]  Loaded 1 plugins.
+
+[18:25:22] 
+[18:25:22] Filterscripts
+[18:25:22] ---------------
+[18:25:22]   Loaded 0 filterscripts.
+
+[18:25:22] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:25:22] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:25:22] Number of vehicle models: 0
+[18:25:42] [connection] 127.0.0.1:63728 requests connection cookie.
+[18:25:43] [connection] incoming connection: 127.0.0.1:63728 id: 0
+[18:25:43] [join] Small has joined the server (0:127.0.0.1)
+[18:25:46] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:26:41] filterscripts = ""  (string)
+[18:26:41] 
+[18:26:41] Server Plugins
+[18:26:41] --------------
+[18:26:41]  Loading plugin: mysql
+[18:26:41]  >> plugin.mysql: R41-4 successfully loaded.
+[18:26:41]   Loaded.
+[18:26:41]  Loaded 1 plugins.
+
+[18:26:41] 
+[18:26:41] Filterscripts
+[18:26:41] ---------------
+[18:26:41]   Loaded 0 filterscripts.
+
+[18:26:41] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:26:41] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:26:41] Number of vehicle models: 0
+[18:27:01] [connection] 127.0.0.1:62125 requests connection cookie.
+[18:27:02] [connection] incoming connection: 127.0.0.1:62125 id: 0
+[18:27:02] [join] Small has joined the server (0:127.0.0.1)
+[18:27:05] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:27:26] filterscripts = ""  (string)
+[18:27:26] 
+[18:27:26] Server Plugins
+[18:27:26] --------------
+[18:27:26]  Loading plugin: mysql
+[18:27:26]  >> plugin.mysql: R41-4 successfully loaded.
+[18:27:26]   Loaded.
+[18:27:26]  Loaded 1 plugins.
+
+[18:27:26] 
+[18:27:26] Filterscripts
+[18:27:26] ---------------
+[18:27:26]   Loaded 0 filterscripts.
+
+[18:27:26] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:27:26] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:27:26] Number of vehicle models: 0
+[18:27:45] [connection] 127.0.0.1:61714 requests connection cookie.
+[18:27:46] [connection] incoming connection: 127.0.0.1:61714 id: 0
+[18:27:46] [join] Small has joined the server (0:127.0.0.1)
+[18:27:49] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:38:53] filterscripts = ""  (string)
+[18:38:53] 
+[18:38:53] Server Plugins
+[18:38:53] --------------
+[18:38:53]  Loading plugin: mysql
+[18:38:53]  >> plugin.mysql: R41-4 successfully loaded.
+[18:38:53]   Loaded.
+[18:38:53]  Loaded 1 plugins.
+
+[18:38:53] 
+[18:38:53] Filterscripts
+[18:38:53] ---------------
+[18:38:53]   Loaded 0 filterscripts.
+
+[18:38:53] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:38:53] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:38:53] Number of vehicle models: 0
+[18:39:18] [connection] 127.0.0.1:64432 requests connection cookie.
+[18:39:19] [connection] incoming connection: 127.0.0.1:64432 id: 0
+[18:39:19] [join] Small has joined the server (0:127.0.0.1)
+[18:42:28] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:42:39] filterscripts = ""  (string)
+[18:42:39] 
+[18:42:39] Server Plugins
+[18:42:39] --------------
+[18:42:39]  Loading plugin: mysql
+[18:42:39]  >> plugin.mysql: R41-4 successfully loaded.
+[18:42:39]   Loaded.
+[18:42:39]  Loaded 1 plugins.
+
+[18:42:39] 
+[18:42:39] Filterscripts
+[18:42:39] ---------------
+[18:42:39]   Loaded 0 filterscripts.
+
+[18:42:39] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[18:42:39] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[18:42:39] Number of vehicle models: 0
+[18:43:04] [connection] 127.0.0.1:51221 requests connection cookie.
+[18:43:05] [connection] incoming connection: 127.0.0.1:51221 id: 0
+[18:43:06] [join] Small has joined the server (0:127.0.0.1)
+[18:43:21] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:09:17] filterscripts = ""  (string)
+[19:09:17] 
+[19:09:17] Server Plugins
+[19:09:17] --------------
+[19:09:17]  Loading plugin: mysql
+[19:09:17]  >> plugin.mysql: R41-4 successfully loaded.
+[19:09:17]   Loaded.
+[19:09:17]  Loaded 1 plugins.
+
+[19:09:17] 
+[19:09:17] Filterscripts
+[19:09:17] ---------------
+[19:09:17]   Loaded 0 filterscripts.
+
+[19:09:17] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[19:09:17] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[19:09:17] Number of vehicle models: 0
+[19:09:49] [connection] 127.0.0.1:56052 requests connection cookie.
+[19:09:50] [connection] incoming connection: 127.0.0.1:56052 id: 0
+[19:09:50] [join] Small has joined the server (0:127.0.0.1)
+[19:10:00] [part] Small has left the server (0:1)
+[19:10:22] [connection] 127.0.0.1:64383 requests connection cookie.
+[19:10:23] [connection] incoming connection: 127.0.0.1:64383 id: 0
+[19:10:23] [join] Small has joined the server (0:127.0.0.1)
+[19:10:30] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:15:41] filterscripts = ""  (string)
+[19:15:41] 
+[19:15:41] Server Plugins
+[19:15:41] --------------
+[19:15:41]  Loading plugin: mysql
+[19:15:42]  >> plugin.mysql: R41-4 successfully loaded.
+[19:15:42]   Loaded.
+[19:15:42]  Loaded 1 plugins.
+
+[19:15:42] 
+[19:15:42] Filterscripts
+[19:15:42] ---------------
+[19:15:42]   Loaded 0 filterscripts.
+
+[19:15:42] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[19:15:42] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[19:15:42] Number of vehicle models: 0
+[19:16:02] [connection] 127.0.0.1:52020 requests connection cookie.
+[19:16:03] [connection] incoming connection: 127.0.0.1:52020 id: 0
+[19:16:03] [join] Small has joined the server (0:127.0.0.1)
+[19:24:14] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:24:36] filterscripts = ""  (string)
+[19:24:36] 
+[19:24:36] Server Plugins
+[19:24:36] --------------
+[19:24:36]  Loading plugin: mysql
+[19:24:36]  >> plugin.mysql: R41-4 successfully loaded.
+[19:24:36]   Loaded.
+[19:24:36]  Loaded 1 plugins.
+
+[19:24:36] 
+[19:24:36] Filterscripts
+[19:24:36] ---------------
+[19:24:36]   Loaded 0 filterscripts.
+
+[19:24:36] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[19:24:36] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[19:24:36] Number of vehicle models: 0
+[19:24:57] [connection] 127.0.0.1:57577 requests connection cookie.
+[19:24:58] [connection] incoming connection: 127.0.0.1:57577 id: 0
+[19:24:58] [join] Small has joined the server (0:127.0.0.1)
+[19:25:39] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:26:40] filterscripts = ""  (string)
+[19:26:40] 
+[19:26:40] Server Plugins
+[19:26:40] --------------
+[19:26:40]  Loading plugin: mysql
+[19:26:40]  >> plugin.mysql: R41-4 successfully loaded.
+[19:26:40]   Loaded.
+[19:26:40]  Loaded 1 plugins.
+
+[19:26:40] 
+[19:26:40] Filterscripts
+[19:26:40] ---------------
+[19:26:40]   Loaded 0 filterscripts.
+
+[19:26:40] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[19:26:40] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[19:26:40] Number of vehicle models: 0
+[19:27:00] [connection] 127.0.0.1:61549 requests connection cookie.
+[19:27:01] [connection] incoming connection: 127.0.0.1:61549 id: 0
+[19:27:02] [join] Small has joined the server (0:127.0.0.1)
+[19:27:07] [part] Small has left the server (0:2)
+[19:27:32] [connection] 127.0.0.1:61013 requests connection cookie.
+[19:27:33] [connection] incoming connection: 127.0.0.1:61013 id: 0
+[19:27:34] [join] Small has joined the server (0:127.0.0.1)
+[19:27:46] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:35:58] filterscripts = ""  (string)
+[19:35:58] 
+[19:35:58] Server Plugins
+[19:35:58] --------------
+[19:35:58]  Loading plugin: mysql
+[19:35:58]  >> plugin.mysql: R41-4 successfully loaded.
+[19:35:58]   Loaded.
+[19:35:58]  Loaded 1 plugins.
+
+[19:35:58] 
+[19:35:58] Filterscripts
+[19:35:58] ---------------
+[19:35:58]   Loaded 0 filterscripts.
+
+[19:35:58] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[19:35:58] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[19:35:58] Number of vehicle models: 0
+[19:36:25] [connection] 127.0.0.1:54641 requests connection cookie.
+[19:36:26] [connection] incoming connection: 127.0.0.1:54641 id: 0
+[19:36:27] [join] Small has joined the server (0:127.0.0.1)
+[19:38:12] [part] Small has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:40:35] filterscripts = ""  (string)
+[19:40:35] 
+[19:40:35] Server Plugins
+[19:40:35] --------------
+[19:40:35]  Loading plugin: mysql
+[19:40:35]  >> plugin.mysql: R41-4 successfully loaded.
+[19:40:35]   Loaded.
+[19:40:35]  Loaded 1 plugins.
+
+[19:40:35] 
+[19:40:35] Filterscripts
+[19:40:35] ---------------
+[19:40:35]   Loaded 0 filterscripts.
+
+[19:40:35] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[19:40:35] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[19:40:35] Number of vehicle models: 0
+[19:40:56] [connection] 127.0.0.1:61200 requests connection cookie.
+[19:40:57] [connection] incoming connection: 127.0.0.1:61200 id: 0
+[19:40:57] [join] Small has joined the server (0:127.0.0.1)
+[19:41:11] [part] Small has left the server (0:2)

@@ -1,0 +1,7 @@
+../modules/player/access.pwn(75) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/player/access.pwn(76) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+c:\Users\Wescley Andrade\Desktop\ServerSAMP\gamemodes\server.pwn(16) : ïðåäóïðåæäåíèå 206: ëèøíèé êîä: ïîñòîÿííîå âûðàæåíèå èñòèííî
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ïðåäóïðåæäåíèé:3.
