@@ -1,10 +1,4 @@
-#include <global> //Includes gerais
-//--------  CONFIG	-------//
-#include "../gamemodes/config.pwn"
-#include "../modules/global/dialogs.pwn"
-//--------	Modules -------//
-#include "../modules/global/mysql.pwn"
-#include "../modules/player/includes.pwn" //players
+#include "../include/global.inc" //Includes gerais
 //
 #pragma tabsize 0
 
@@ -13,7 +7,15 @@ main() return print("\n[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +
 
 public OnGameModeInit()
 {
-	if(MYSQL == true) Conecta();
+	LoadConfig();
+	/*if(MYSQL == "true")*/ Conecta();
 	
     return 1;
+}
+
+
+public OnGameModeExit()
+{
+	SalvarContas();
+	return 1;
 }

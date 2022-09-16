@@ -1,0 +1,5 @@
+criarveiculo
+ls
+lv
+setaradmin
+reiniciar

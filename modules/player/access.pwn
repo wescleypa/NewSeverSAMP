@@ -1,9 +1,8 @@
 new tentativas[MAX_PLAYERS] = 1;
-new logado[MAX_PLAYERS] = 0;
 
 public OnPlayerConnect(playerid)
 {
-	SetSpawnInfo(playerid, 0, 0, Player[playerid][dX],
+	SetSpawnInfo(playerid, 0, 0, Player[playerid][dX],\
 	Player[playerid][dY], Player[playerid][dZ], Player[playerid][dA], 0, 0, 0, 0, 0, 0); //Não mexa
 	
 	//Verificando dados
@@ -15,11 +14,13 @@ public OnPlayerConnect(playerid)
 
 	if(cache_num_rows() > 0){
 		cache_get_value_name(0, "password", Player[playerid][password], 24); //Pega senha do usuário
-		new bvindas[50];
+		new bvindas[50], msgwelcome[200];
 		format(bvindas, sizeof(bvindas), "Boas vindas ao %s", SERVER_NAME);
-		ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, bvindas, "\
+		format(msgwelcome, sizeof(msgwelcome), "\
 		{298A08}Notamos que você já possuí visto em nosso País,\n\
-		{FFFFFF}portanto, Faça Login digitando sua senha abaixo.", "Entrar", "Cancelar");
+		{FFFFFF}portanto, Faça Login digitando sua senha abaixo.");
+
+		ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, bvindas, msgwelcome, "Entrar", "Cancelar");
 	}else{
 		new bvindas[50];
 		format(bvindas, sizeof(bvindas), "Boas vindas ao %s", SERVER_NAME);
@@ -97,8 +98,9 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		new sql_insert[300];
 		format(sql_insert, sizeof(sql_insert), "\
 		INSERT INTO `contas`(`username`, `password`,\
-		`money`, `level`, `dX`, `dY`, `dZ`, `dA`, `dI`) VALUES (\
-		'%s', '%s', '%d', '%d', '0.0', '0.0', '0.0', '0.0', '0')", name, inputtext, DEFAULT_MONEY, DEFAULT_LEVEL);
+		`money`, `level`, `dX`, `dY`, `dZ`, `dA`, `dI`, `admin`, `genre`) VALUES (\
+		'%s', '%s', '%d', '%d', '%f', '%f', '%f', '%f', '%d', '0', '1')", name, inputtext, DEFAULT_MONEY, DEFAULT_LEVEL,
+		SpawnX, SpawnY, SpawnZ, SpawnA, SpawnI);
 		mysql_query(conexao, sql_insert, false);
 		//Fazendo Login
 		cache_get_value_name(0, "password", Player[playerid][password]); //Pega senha do usuário
@@ -118,6 +120,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 }
 
 ColetaDados(playerid){
+
 	new sql_acess[300], name[MAX_PLAYER_NAME + 1];
 	GetPlayerName(playerid, name, sizeof(name));
 
@@ -133,10 +136,9 @@ ColetaDados(playerid){
 	cache_get_value_float(0, "dZ", Player[playerid][dZ]); //Pega a posição Z que o usuário desconectou
 	cache_get_value_float(0, "dA", Player[playerid][dA]); //Pega a posição A que o usuário desconectou
 	cache_get_value_int(0, "dI", Player[playerid][dI]); //Pega o interior que o usuário desconectou
+	cache_get_value_int(0, "admin", Player[playerid][admin]); //Pega o nível de admin do usuário
+	cache_get_value_int(0, "genre", Player[playerid][genre]); //Pega o nível de admin do usuário
 	//
-	new nteste[128];
-	format(nteste, sizeof(nteste), "x: %f", Player[playerid][dX]);
-	SendClientMessage(playerid, -1, nteste);
 	//Seta dados do usuário
 	SetaDados(playerid);
 }
@@ -146,7 +148,6 @@ SetaDados(playerid){
 	SetPlayerScore(playerid, Player[playerid][level]);
 
 	Spawn(playerid);
-	SpawnPlayer(playerid);
 	logado[playerid] = 1;
 }
 
