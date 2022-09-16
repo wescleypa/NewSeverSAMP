@@ -81,6 +81,11 @@ public OnPlayerCommandText(playerid, cmdtext[])
     }
 
     CMD:setaradmin(playerid, params[]){ //Promove alguém à admin
+
+    MICAEL É VIADOOOOOOO
+
+
+    
         if(logado[playerid] == 0) return 1;
         new para, nivel;
 
