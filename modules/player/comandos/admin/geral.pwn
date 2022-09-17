@@ -15,6 +15,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
 
 
 
+
     CMD:criarveiculo(playerid, params[]) { //Criar veículo
   
         if(logado[playerid] == 0) return 1;
@@ -114,6 +115,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
   
     return 1;
 }
+<<<<<<< HEAD
 
     CMD:sf(playerid){ //Vai até San Fierro
         if(logado[playerid] == 0) return 1;
@@ -134,6 +136,8 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
     SendClientMessage(playerid, -1, mensagem); 
     return 1;
     }
+=======
+>>>>>>> 195b8689821b3baacedc24f385ef330cc7fe420a
 
     CMD:setaradmin(playerid, params[]){ //Promove alguém à admin
         if(logado[playerid] == 0) return 1;
