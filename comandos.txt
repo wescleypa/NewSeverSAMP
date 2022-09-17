@@ -1,8 +1,10 @@
 criarveiculo
 ls
 lv
+sf
 setaradmin
 reiniciar
 ir
 trazer
 voltar
+pos

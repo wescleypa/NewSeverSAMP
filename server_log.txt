@@ -9364,3 +9364,180 @@ e Micael SaydeN
 [23:04:57] [connection] incoming connection: 26.184.72.89:61774 id: 1
 [23:04:57] [join] MicaeL has joined the server (1:26.184.72.89)
 [23:05:35] [part] MicaeL has left the server (1:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:14:28] filterscripts = ""  (string)
+[23:14:28] 
+[23:14:28] Server Plugins
+[23:14:28] --------------
+[23:14:28]  Loading plugin: mysql
+[23:14:28]  >> plugin.mysql: R41-4 successfully loaded.
+[23:14:28]   Loaded.
+[23:14:28]  Loading plugin: sscanf
+[23:14:28] 
+
+[23:14:28]  ===============================
+
+[23:14:28]       sscanf plugin loaded.     
+
+[23:14:28]          Version:  2.8.3        
+
+[23:14:28]   (c) 2018 Alex "Y_Less" Cole  
+
+[23:14:28]  ===============================
+
+[23:14:28]   Loaded.
+[23:14:28]  Loading plugin: streamer
+[23:14:28] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[23:14:28]   Loaded.
+[23:14:28]  Loaded 3 plugins.
+
+[23:14:28] 
+[23:14:28] Filterscripts
+[23:14:28] ---------------
+[23:14:28]   Loaded 0 filterscripts.
+
+[23:14:28] 
+[MySQL] Erro ao conectar com Banco de dados.
+
+[23:14:28] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[23:14:28] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:14:41] filterscripts = ""  (string)
+[23:14:41] 
+[23:14:41] Server Plugins
+[23:14:41] --------------
+[23:14:41]  Loading plugin: mysql
+[23:14:41]  >> plugin.mysql: R41-4 successfully loaded.
+[23:14:41]   Loaded.
+[23:14:41]  Loading plugin: sscanf
+[23:14:41] 
+
+[23:14:41]  ===============================
+
+[23:14:41]       sscanf plugin loaded.     
+
+[23:14:41]          Version:  2.8.3        
+
+[23:14:41]   (c) 2018 Alex "Y_Less" Cole  
+
+[23:14:41]  ===============================
+
+[23:14:41]   Loaded.
+[23:14:41]  Loading plugin: streamer
+[23:14:41] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[23:14:41]   Loaded.
+[23:14:41]  Loaded 3 plugins.
+
+[23:14:41] 
+[23:14:41] Filterscripts
+[23:14:41] ---------------
+[23:14:41]   Loaded 0 filterscripts.
+
+[23:14:41] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:14:41] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[23:14:41] Number of vehicle models: 0
+[23:14:50] [connection] 127.0.0.1:62956 requests connection cookie.
+[23:14:52] [connection] incoming connection: 127.0.0.1:62956 id: 0
+[23:14:52] [join] Tester has joined the server (0:127.0.0.1)
+[23:14:59] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:15:20] sscanf warning: Format specifier does not match parameter count.
+[23:17:27] [connection] 26.184.72.89:64678 requests connection cookie.
+[23:17:28] [connection] incoming connection: 26.184.72.89:64678 id: 1
+[23:17:29] [join] MicaeL has joined the server (1:26.184.72.89)
+[23:17:41] sscanf warning: Format specifier does not match parameter count.
+[23:17:44] sscanf warning: Format specifier does not match parameter count.
+[23:17:44] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:18:04] [part] MicaeL has left the server (1:1)
+[23:18:32] [connection] 26.184.72.89:54852 requests connection cookie.
+[23:18:33] [connection] incoming connection: 26.184.72.89:54852 id: 1
+[23:18:34] [join] MicaeL has joined the server (1:26.184.72.89)
+[23:18:46] sscanf warning: Format specifier does not match parameter count.
+[23:18:46] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:18:58] sscanf warning: Format specifier does not match parameter count.
+[23:18:58] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:18:58] sscanf warning: Format specifier does not match parameter count.
+[23:18:58] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:19:01] sscanf warning: Format specifier does not match parameter count.
+[23:19:01] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:19:07] sscanf warning: Format specifier does not match parameter count.
+[23:19:07] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:19:11] sscanf warning: Format specifier does not match parameter count.
+[23:19:11] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:19:21] sscanf warning: Format specifier does not match parameter count.
+[23:19:21] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:19:23] sscanf warning: Format specifier does not match parameter count.
+[23:19:23] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:19:33] sscanf warning: Format specifier does not match parameter count.
+[23:19:33] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:19:38] sscanf warning: Format specifier does not match parameter count.
+[23:19:38] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:19:39] sscanf warning: Format specifier does not match parameter count.
+[23:19:39] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:19:46] sscanf warning: Format specifier does not match parameter count.
+[23:19:46] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:19:52] sscanf warning: Format specifier does not match parameter count.
+[23:19:52] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:20:04] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:20:08] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:20:10] sscanf warning: Format specifier does not match parameter count.
+[23:20:10] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:20:16] sscanf warning: Format specifier does not match parameter count.
+[23:20:16] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:20:35] sscanf warning: Format specifier does not match parameter count.
+[23:20:35] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:20:44] sscanf warning: Format specifier does not match parameter count.
+[23:20:44] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:20:47] sscanf warning: Format specifier does not match parameter count.
+[23:20:47] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:20:50] sscanf warning: Format specifier does not match parameter count.
+[23:20:50] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:21:16] sscanf warning: Format specifier does not match parameter count.
+[23:21:16] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:21:24] sscanf warning: Format specifier does not match parameter count.
+[23:21:24] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:23:02] sscanf warning: Format specifier does not match parameter count.
+[23:23:02] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:23:08] sscanf warning: Format specifier does not match parameter count.
+[23:23:08] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:23:28] sscanf warning: Format specifier does not match parameter count.
+[23:23:28] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[23:24:26] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[23:33:51] [part] MicaeL has left the server (1:0)

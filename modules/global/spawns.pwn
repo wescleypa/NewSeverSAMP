@@ -1,7 +1,8 @@
 //Define locais
 enum Locais{
     ls, //Los Santos
-    lv  //Las Venturas
+    lv, //Las Venturas
+    sf  //San Fierro
 }
 
 stock ToSpawn(playerid, local){
@@ -12,6 +13,9 @@ stock ToSpawn(playerid, local){
     }else if(local == lv){
       SetPlayerPos(playerid, 1690.5522, 1453.8761, 10.7662);
       SetPlayerFacingAngle(playerid, 269.2406);
+      SetPlayerInterior(playerid, 0);
+    }else if(local == sf){
+      SetPlayerPos(playerid, 1417.0,-295.8,14.1);
       SetPlayerInterior(playerid, 0);
     }
     return 1;
