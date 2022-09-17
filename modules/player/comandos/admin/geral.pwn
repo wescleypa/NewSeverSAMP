@@ -15,7 +15,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
         new CarModel, Cor[2], Float:X, Float:Y, Float:Z, Float:A;
         if(GetPlayerInterior(playerid) != 0) 
             return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Você não pode criar um veículo dentro de interior");
-        if(sscanf(params, "dD(-1)D(-1)", CarModel, Cor[0], Cor[1]))
+        if(sscanf(params, "dD(-1)D(-1)[32]", CarModel, Cor[0], Cor[1]))
             return SendClientMessage(playerid, -1,  "{B30404}[!] {FFFFFF}Use {015EB5}/criarveiculo {FFFFFF}[Modelo] [Cor 1] [Cor 2]");
 
         if(Cor[0] < 0 || Cor[1] > 255)
@@ -35,12 +35,11 @@ public OnPlayerCommandText(playerid, cmdtext[])
         CriouCarAdmin[playerid] = 1;
 
         new cargo[30], name[MAX_PLAYER_NAME+1];
-        GetPlayerName(playerid, name);
-       // cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
-        // formatmsg[120];
-       /* format(formatmsg, sizeof(formatmsg), "{015EB5}[Central] {%s}[%s] %s {FFFFFF}criou o veículo {015EB5}%d",
-        ColorAdmin(Player[playerid][admin]), cargo, name, CarAdmin[playerid]);
-        ToAdmins(formatmsg);*/
+        GetPlayerName(playerid, name, sizeof(name));
+        cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
+        new formatmsg[120];
+        format(formatmsg, sizeof(formatmsg), "{015EB5}[Central] [%s] %s {FFFFFF}criou o veículo {015EB5}%d", cargo, name, CarAdmin[playerid]);
+        ToAdmins(formatmsg);
 
         LogAdmin(playerid, "cmd", "criarveiculo", "");
     return 1;
@@ -50,14 +49,14 @@ public OnPlayerCommandText(playerid, cmdtext[])
       if(logado[playerid] == 0) return 1;
       if(Player[playerid][admin] < 3) return ComandoInvalido(playerid);
       new CarID;
-      if(sscanf(params, "d", CarID))
+      if(sscanf(params, "d[20]", CarID))
             return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Use {015EB5}/destruirveiculo {FFFFFF}[ID]");
 
       DestroyVehicle(CarID);
       LogAdmin(playerid, "cmd", "destruirveiculo", "");
 
       new cargo[30], name[MAX_PLAYER_NAME+1];
-      GetPlayerName(playerid, name);
+      GetPlayerName(playerid, name, sizeof(name));
       cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
       new formatmsg[120];
       format(formatmsg, sizeof(formatmsg), "{015EB5}[Central] {%s}[%s] %s {FFFFFF}destruiu o veículo {015EB5}%d",
@@ -86,7 +85,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
 
         if(Player[playerid][admin] < ADMIN_DIRETOR) return ComandoInvalido(playerid);
 
-        if(sscanf(params, "dd", para, nivel))
+        if(sscanf(params, "dd[40]", para, nivel))
           return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Use /setaradmin {FFFFFF}[ID] [Level]");
         if(Player[playerid][admin] < ADMIN_OWNER && nivel > ADMIN_SUPERVISOR)
         {
@@ -129,7 +128,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
     if(Player[playerid][admin] < ADMIN_DIRETOR) return ComandoInvalido(playerid);
 
     new s, aviso[120], avisoT[120];
-    if(sscanf(params, "d", s))
+    if(sscanf(params, "d[40]", s))
       return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Use /gmx {FFFFFF}[Segundos]");
 
     if(s < 15) return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}O mínimo permitido é de {B30404}15{FFFFFF} segundos");
@@ -148,3 +147,40 @@ public OnPlayerCommandText(playerid, cmdtext[])
     LogAdmin(playerid, "cmd", "reiniciar", "");
     return 1;
     }   
+
+    CMD:ir(playerid, params[]){
+    if(logado[playerid] == 0) return 1;
+    if(Player[playerid][admin] < ADMIN_DIRETOR) return ComandoInvalido(playerid);
+
+    new d;
+    if(sscanf(params, "d[30]", d))
+      return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Use /ir {FFFFFF}[Player ID]");
+
+    if(logado[d] == 0)
+      return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}a pessoa informada está desconectada.");
+
+    new Float:IrX, Float:IrY, Float:IrZ, Float:IrA, IrI;
+    GetPlayerPos(d, IrX, IrY, IrZ);
+    GetPlayerFacingAngle(d, IrA);
+    IrI = GetPlayerInterior(d);
+    //
+    SetPlayerPos(playerid, IrX, IrY, IrZ);
+    SetPlayerFacingAngle(playerid, IrA);
+    SetPlayerInterior(playerid, IrI);
+    //
+    new cargo[20];
+    cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
+    new formattext[200], formattextP[200], formattextA[200], name[MAX_PLAYER_NAME+1], nameAdmin[MAX_PLAYER_NAME+1];
+    //Coletando nomes
+    GetPlayerName(d, name, sizeof(name));
+    GetPlayerName(playerid, nameAdmin, sizeof(nameAdmin));
+    //
+    format(formattextP, sizeof(formattextP), "{%s}>> [%s] %s veio até você.", Color(0), cargo, nameAdmin);
+    format(formattext, sizeof(formattext), "{%s}>> Você foi até %s", Color(0), name);
+    format(formattextA, sizeof(formattextA), "{%s}[Central] {FFFFFF}[%s] %s foi até [%d]%s.", Color(1), cargo, nameAdmin, d, name);
+    //Enviando mensagens
+    SendClientMessage(playerid, -1, formattextP);
+    SendClientMessage(playerid, -1, formattext);
+    ToAdmins(formattextA);
+    return 1;       
+    }

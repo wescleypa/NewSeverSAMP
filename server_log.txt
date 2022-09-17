@@ -8678,3 +8678,429 @@ e Micael SaydeN
 [20:09:46] [connection] 127.0.0.1:64970 requests connection cookie.
 [20:09:47] [connection] incoming connection: 127.0.0.1:64970 id: 0
 [20:09:47] [join] Tester has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:10:50] filterscripts = ""  (string)
+[20:10:50] 
+[20:10:50] Server Plugins
+[20:10:50] --------------
+[20:10:50]  Loading plugin: mysql
+[20:10:50]  >> plugin.mysql: R41-4 successfully loaded.
+[20:10:50]   Loaded.
+[20:10:50]  Loading plugin: sscanf
+[20:10:50] 
+
+[20:10:50]  ===============================
+
+[20:10:50]       sscanf plugin loaded.     
+
+[20:10:50]          Version:  2.8.3        
+
+[20:10:50]   (c) 2018 Alex "Y_Less" Cole  
+
+[20:10:50]  ===============================
+
+[20:10:50]   Loaded.
+[20:10:50]  Loading plugin: streamer
+[20:10:50] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[20:10:50]   Loaded.
+[20:10:50]  Loaded 3 plugins.
+
+[20:10:50] 
+[20:10:50] Filterscripts
+[20:10:50] ---------------
+[20:10:50]   Loaded 0 filterscripts.
+
+[20:10:50] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[20:10:50] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[20:10:50] Number of vehicle models: 0
+[20:11:09] [connection] 127.0.0.1:55992 requests connection cookie.
+[20:11:10] [connection] incoming connection: 127.0.0.1:55992 id: 0
+[20:11:11] [join] Tester has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:26:26] filterscripts = ""  (string)
+[20:26:26] 
+[20:26:26] Server Plugins
+[20:26:26] --------------
+[20:26:26]  Loading plugin: mysql
+[20:26:26]  >> plugin.mysql: R41-4 successfully loaded.
+[20:26:26]   Loaded.
+[20:26:26]  Loading plugin: sscanf
+[20:26:26] 
+
+[20:26:26]  ===============================
+
+[20:26:26]       sscanf plugin loaded.     
+
+[20:26:26]          Version:  2.8.3        
+
+[20:26:26]   (c) 2018 Alex "Y_Less" Cole  
+
+[20:26:26]  ===============================
+
+[20:26:26]   Loaded.
+[20:26:26]  Loading plugin: streamer
+[20:26:26] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[20:26:26]   Loaded.
+[20:26:26]  Loaded 3 plugins.
+
+[20:26:26] 
+[20:26:26] Filterscripts
+[20:26:26] ---------------
+[20:26:26]   Loaded 0 filterscripts.
+
+[20:26:26] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[20:26:26] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[20:26:26] Number of vehicle models: 0
+[20:26:31] [connection] 127.0.0.1:53582 requests connection cookie.
+[20:26:32] [connection] incoming connection: 127.0.0.1:53582 id: 0
+[20:26:33] [join] Tester has joined the server (0:127.0.0.1)
+[20:26:42] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[20:26:42] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[20:57:22] [connection] 26.184.72.89:52798 requests connection cookie.
+[20:57:23] [connection] incoming connection: 26.184.72.89:52798 id: 1
+[20:57:24] [join] MicaeL has joined the server (1:26.184.72.89)
+[20:57:43] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[20:57:43] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[20:57:47] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[20:57:47] 
+[MySQL] Banco de dados conectado com sucesso.
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:58:50] filterscripts = ""  (string)
+[20:58:50] 
+[20:58:50] Server Plugins
+[20:58:50] --------------
+[20:58:50]  Loading plugin: mysql
+[20:58:50]  >> plugin.mysql: R41-4 successfully loaded.
+[20:58:50]   Loaded.
+[20:58:50]  Loading plugin: sscanf
+[20:58:50] 
+
+[20:58:50]  ===============================
+
+[20:58:50]       sscanf plugin loaded.     
+
+[20:58:50]          Version:  2.8.3        
+
+[20:58:50]   (c) 2018 Alex "Y_Less" Cole  
+
+[20:58:50]  ===============================
+
+[20:58:50]   Loaded.
+[20:58:50]  Loading plugin: streamer
+[20:58:50] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[20:58:50]   Loaded.
+[20:58:50]  Loaded 3 plugins.
+
+[20:58:50] 
+[20:58:50] Filterscripts
+[20:58:50] ---------------
+[20:58:50]   Loaded 0 filterscripts.
+
+[20:58:50] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[20:58:50] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[20:58:50] Number of vehicle models: 0
+[20:59:08] [connection] 127.0.0.1:58032 requests connection cookie.
+[20:59:09] [connection] incoming connection: 127.0.0.1:58032 id: 0
+[20:59:09] [join] Tester has joined the server (0:127.0.0.1)
+[20:59:24] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:00:26] [connection] 26.184.72.89:64733 requests connection cookie.
+[21:00:27] [connection] incoming connection: 26.184.72.89:64733 id: 1
+[21:00:28] [join] MicaeL has joined the server (1:26.184.72.89)
+[21:01:12] sscanf warning: Strings without a length are deprecated, please add a destination size.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:01:25] filterscripts = ""  (string)
+[21:01:25] 
+[21:01:25] Server Plugins
+[21:01:25] --------------
+[21:01:25]  Loading plugin: mysql
+[21:01:25]  >> plugin.mysql: R41-4 successfully loaded.
+[21:01:25]   Loaded.
+[21:01:25]  Loading plugin: sscanf
+[21:01:25] 
+
+[21:01:25]  ===============================
+
+[21:01:25]       sscanf plugin loaded.     
+
+[21:01:25]          Version:  2.8.3        
+
+[21:01:25]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:01:25]  ===============================
+
+[21:01:25]   Loaded.
+[21:01:25]  Loading plugin: streamer
+[21:01:25] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[21:01:25]   Loaded.
+[21:01:25]  Loaded 3 plugins.
+
+[21:01:25] 
+[21:01:25] Filterscripts
+[21:01:25] ---------------
+[21:01:25]   Loaded 0 filterscripts.
+
+[21:01:25] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:01:25] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:01:25] Number of vehicle models: 0
+[21:01:42] [connection] 26.184.72.89:63701 requests connection cookie.
+[21:01:43] [connection] incoming connection: 26.184.72.89:63701 id: 0
+[21:01:44] [join] MicaeL has joined the server (0:26.184.72.89)
+[21:03:57] [connection] 127.0.0.1:62960 requests connection cookie.
+[21:03:58] [connection] incoming connection: 127.0.0.1:62960 id: 1
+[21:03:59] [join] Tester has joined the server (1:127.0.0.1)
+[21:04:33] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:09:47] sscanf warning: Strings without a length are deprecated, please add a destination size.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:10:03] filterscripts = ""  (string)
+[21:10:03] 
+[21:10:03] Server Plugins
+[21:10:03] --------------
+[21:10:03]  Loading plugin: mysql
+[21:10:03]  >> plugin.mysql: R41-4 successfully loaded.
+[21:10:03]   Loaded.
+[21:10:03]  Loading plugin: sscanf
+[21:10:03] 
+
+[21:10:03]  ===============================
+
+[21:10:03]       sscanf plugin loaded.     
+
+[21:10:03]          Version:  2.8.3        
+
+[21:10:03]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:10:03]  ===============================
+
+[21:10:03]   Loaded.
+[21:10:03]  Loading plugin: streamer
+[21:10:03] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[21:10:03]   Loaded.
+[21:10:03]  Loaded 3 plugins.
+
+[21:10:03] 
+[21:10:03] Filterscripts
+[21:10:03] ---------------
+[21:10:03]   Loaded 0 filterscripts.
+
+[21:10:03] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:10:03] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:10:03] Number of vehicle models: 0
+[21:10:17] [connection] 26.184.72.89:56227 requests connection cookie.
+[21:10:18] [connection] incoming connection: 26.184.72.89:56227 id: 0
+[21:10:19] [join] MicaeL has joined the server (0:26.184.72.89)
+[21:10:26] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:10:28] [connection] 127.0.0.1:58688 requests connection cookie.
+[21:10:29] [connection] incoming connection: 127.0.0.1:58688 id: 1
+[21:10:29] [join] Tester has joined the server (1:127.0.0.1)
+[21:10:40] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:12:46] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:12:50] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:13:02] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:14:19] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:14:25] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:14:32] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:14:35] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:14:38] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:14:45] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:16:05] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:21:44] [part] MicaeL has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:43:17] filterscripts = ""  (string)
+[21:43:17] 
+[21:43:17] Server Plugins
+[21:43:17] --------------
+[21:43:17]  Loading plugin: mysql
+[21:43:17]  >> plugin.mysql: R41-4 successfully loaded.
+[21:43:17]   Loaded.
+[21:43:17]  Loading plugin: sscanf
+[21:43:17] 
+
+[21:43:17]  ===============================
+
+[21:43:17]       sscanf plugin loaded.     
+
+[21:43:17]          Version:  2.8.3        
+
+[21:43:17]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:43:17]  ===============================
+
+[21:43:17]   Loaded.
+[21:43:17]  Loading plugin: streamer
+[21:43:17] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[21:43:17]   Loaded.
+[21:43:17]  Loaded 3 plugins.
+
+[21:43:17] 
+[21:43:17] Filterscripts
+[21:43:17] ---------------
+[21:43:17]   Loaded 0 filterscripts.
+
+[21:43:17] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:43:17] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:43:17] Number of vehicle models: 0
+[21:43:23] [connection] 127.0.0.1:50901 requests connection cookie.
+[21:43:24] [connection] incoming connection: 127.0.0.1:50901 id: 0
+[21:43:25] [join] Tester has joined the server (0:127.0.0.1)
+[21:43:36] sscanf warning: Strings without a length are deprecated, please add a destination size.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:49:58] filterscripts = ""  (string)
+[21:49:58] 
+[21:49:58] Server Plugins
+[21:49:58] --------------
+[21:49:58]  Loading plugin: mysql
+[21:49:58]  >> plugin.mysql: R41-4 successfully loaded.
+[21:49:58]   Loaded.
+[21:49:58]  Loading plugin: sscanf
+[21:49:58] 
+
+[21:49:58]  ===============================
+
+[21:49:58]       sscanf plugin loaded.     
+
+[21:49:58]          Version:  2.8.3        
+
+[21:49:58]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:49:58]  ===============================
+
+[21:49:58]   Loaded.
+[21:49:58]  Loading plugin: streamer
+[21:49:58] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[21:49:58]   Loaded.
+[21:49:58]  Loaded 3 plugins.
+
+[21:49:58] 
+[21:49:58] Filterscripts
+[21:49:58] ---------------
+[21:49:58]   Loaded 0 filterscripts.
+
+[21:49:58] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[21:49:58] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[21:49:58] Number of vehicle models: 0
+[21:50:13] [connection] 127.0.0.1:62945 requests connection cookie.
+[21:50:14] [connection] incoming connection: 127.0.0.1:62945 id: 0
+[21:50:14] [join] Tester has joined the server (0:127.0.0.1)
+[21:50:26] sscanf warning: Format specifier does not match parameter count.
+[21:50:45] sscanf warning: Format specifier does not match parameter count.
+[21:50:51] sscanf warning: Format specifier does not match parameter count.
+[21:52:35] sscanf warning: Format specifier does not match parameter count.
+[21:52:52] sscanf warning: Format specifier does not match parameter count.
+[21:52:52] sscanf warning: Strings without a length are deprecated, please add a destination size.

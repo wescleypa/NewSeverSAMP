@@ -137,6 +137,18 @@ ColorAdmin(level)
     return CORADM;
 }
 
+//Define colors server
+Color(type)
+{
+    new COLOR[7];
+    switch(type)
+    {
+        case 0: COLOR = "045FB4"; //COLOR_WARN
+        case 1: COLOR = "015EB5"; //COLOR_CENTRAL
+    }
+    return COLOR;
+}
+
 //Não mexa
 // dest[22];
 //NetStats_GetIp(playerid, dest, sizeof(dest));
