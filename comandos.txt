@@ -4,7 +4,12 @@ lv
 sf
 setaradmin
 reiniciar
+<<<<<<< HEAD
 ir
 trazer
 voltar
 pos
+=======
+pos
+sf
+>>>>>>> 195b8689821b3baacedc24f385ef330cc7fe420a
