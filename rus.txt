@@ -9,6 +9,7 @@
 ../modules/global/spawns.pwn(9) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
 ../modules/global/spawns.pwn(13) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
 ../modules/global/spawns.pwn(17) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+<<<<<<< HEAD
 ../modules/player/comandos/admin/geral.pwn(12) : ïðåäóïðåæäåíèå 202: êîëè÷åñòâî àðãóìåíòîâ íå ñîâïàäàåò ñ îáúÿâëåíèåì
 ../modules/player/comandos/admin/geral.pwn(51) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ../modules/player/comandos/admin/geral.pwn(71) : íåïðàâèëüíàÿ òàáóëÿöèÿ
@@ -28,8 +29,31 @@ c:\Users\Wescley Andrade\Desktop\ServerSAMP\gamemodes\server.pwn(11) : íåïð�
 c:\Users\Wescley Andrade\Desktop\ServerSAMP\gamemodes\server.pwn(13) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 c:\Users\Wescley Andrade\Desktop\ServerSAMP\gamemodes\server.pwn(180) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "DOF2_Exit"
 C:\Users\Wescley Andrade\Desktop\ServerSAMP\pawno\include\dof2.inc(1085) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â DOF2_QuickSort
+=======
+../modules/player/comandos/admin/geral.pwn(47) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(67) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(73) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/player/comandos/admin/geral.pwn(80) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/player/comandos/admin/geral.pwn(86) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/player/comandos/admin/geral.pwn(91) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(95) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(107) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(110) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(91) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "nivel"
+../modules/player/comandos/admin/geral.pwn(91) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "para"
+../modules/player/comandos/admin/geral.pwn(175) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(177) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+c:\Users\micae\OneDrive\Área de Trabalho\NewSeverSAMP\gamemodes\server.pwn(11) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+c:\Users\micae\OneDrive\Área de Trabalho\NewSeverSAMP\gamemodes\server.pwn(13) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+c:\Users\micae\OneDrive\Área de Trabalho\NewSeverSAMP\gamemodes\server.pwn(180) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "DOF2_Exit"
+C:\Users\micae\OneDrive\�rea de Trabalho\NewSeverSAMP\pawno\include\dof2.inc(1085) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â DOF2_QuickSort
+>>>>>>> 195b8689821b3baacedc24f385ef330cc7fe420a
 Äëÿ îòêëþ÷åíèÿ âûâîäà ðåêóðñèé: #pragma disablerecursion
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
 
+<<<<<<< HEAD
 Ïðåäóïðåæäåíèé:15.
+=======
+Ïðåäóïðåæäåíèé:11.
+>>>>>>> 195b8689821b3baacedc24f385ef330cc7fe420a
