@@ -397,3 +397,25 @@
 [21:10:03] [WARNING] mysql_connect: no password specified
 [21:43:17] [WARNING] mysql_connect: no password specified
 [21:49:58] [WARNING] mysql_connect: no password specified
+[21:59:38] [WARNING] mysql_connect: no password specified
+[22:27:16] [WARNING] mysql_connect: no password specified
+[22:52:12] [WARNING] mysql_connect: no password specified
+[22:53:59] [WARNING] mysql_connect: no password specified
+[22:53:59] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:54:01] [WARNING] mysql_connect: no password specified
+[22:54:01] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:54:12] [WARNING] mysql_connect: no password specified
+[22:54:12] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:54:17] [WARNING] mysql_connect: no password specified
+[22:54:17] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:54:25] [WARNING] mysql_connect: no password specified
+[22:54:25] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:59:01] [WARNING] mysql_connect: no password specified
+[22:59:01] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:03:35] [WARNING] mysql_connect: no password specified
+[23:03:59] [WARNING] mysql_connect: no password specified
+[23:03:59] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:04:00] [WARNING] mysql_connect: no password specified
+[23:04:00] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:04:02] [WARNING] mysql_connect: no password specified
+[23:04:02] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'

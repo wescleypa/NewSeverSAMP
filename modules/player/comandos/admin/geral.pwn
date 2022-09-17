@@ -4,9 +4,13 @@ public OnPlayerCommandText(playerid, cmdtext[])
 {
 	new idx;
 	new cmd[256];
-	
 	cmd = strtok(cmdtext, idx);
     return 1;
+}
+public OnPlayerCommandPerformed(playerid, cmdtext[], success)
+{
+    if(!success) return ComandoInvalido();
+    return true;
 }
 
     CMD:criarveiculo(playerid, params[]) { //Criar veículo
@@ -38,7 +42,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
         GetPlayerName(playerid, name, sizeof(name));
         cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
         new formatmsg[120];
-        format(formatmsg, sizeof(formatmsg), "{015EB5}[Central] [%s] %s {FFFFFF}criou o veículo {015EB5}%d", cargo, name, CarAdmin[playerid]);
+        format(formatmsg, sizeof(formatmsg), "{015EB5}[Central] {FFFFFF}[%s] %s criou o veículo {015EB5}%d", cargo, name, CarAdmin[playerid]);
         ToAdmins(formatmsg);
 
         LogAdmin(playerid, "cmd", "criarveiculo", "");
@@ -159,14 +163,17 @@ public OnPlayerCommandText(playerid, cmdtext[])
     if(logado[d] == 0)
       return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}a pessoa informada está desconectada.");
 
-    new Float:IrX, Float:IrY, Float:IrZ, Float:IrA, IrI;
-    GetPlayerPos(d, IrX, IrY, IrZ);
-    GetPlayerFacingAngle(d, IrA);
-    IrI = GetPlayerInterior(d);
+    if(playerid == d)
+      return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Você não pode ir até si mesmo.");
+
+    new Float:IrX[MAX_PLAYERS], Float:IrY[MAX_PLAYERS], Float:IrZ[MAX_PLAYERS], Float:IrA[MAX_PLAYERS], IrI[MAX_PLAYERS];
+    GetPlayerPos(d, IrX[d], IrY[d], IrZ[d]);
+    GetPlayerFacingAngle(d, IrA[d]);
+    IrI[d] = GetPlayerInterior(d);
     //
-    SetPlayerPos(playerid, IrX, IrY, IrZ);
-    SetPlayerFacingAngle(playerid, IrA);
-    SetPlayerInterior(playerid, IrI);
+    SetPlayerPos(playerid, IrX[d], IrY[d], IrZ[d]);
+    SetPlayerFacingAngle(playerid, IrA[d]);
+    SetPlayerInterior(playerid, IrI[d]);
     //
     new cargo[20];
     cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
@@ -181,6 +188,97 @@ public OnPlayerCommandText(playerid, cmdtext[])
     //Enviando mensagens
     SendClientMessage(playerid, -1, formattextP);
     SendClientMessage(playerid, -1, formattext);
-    ToAdmins(formattextA);
+    if(ADMIN_MSG_IR == true) ToAdmins(formattextA);
+    
+    LogAdmin(playerid, "cmd", "ir", "");
     return 1;       
+    }
+
+    CMD:trazer(playerid, params[]){
+        if(logado[playerid] == 0) return 1;
+        if(Player[playerid][admin] < ADMIN_DIRETOR) return ComandoInvalido(playerid);
+
+        new d;
+        if(sscanf(params, "d[30]", d))
+          return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Use /trazer {FFFFFF}[Player ID]");
+
+        if(logado[d] == 0)
+          return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}a pessoa informada está desconectada.");
+
+        if(playerid == d)
+          return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Você não pode trazer a si mesmo.");
+
+        GetPlayerPos(d, pX[d], pY[d], pZ[d]);
+        GetPlayerFacingAngle(d, pA[d]);
+        pI[d] = GetPlayerInterior(d);
+        //
+        new Float:aX[MAX_PLAYERS], Float:aY[MAX_PLAYERS], Float:aZ[MAX_PLAYERS], Float:aA[MAX_PLAYERS], aI[MAX_PLAYERS];
+        GetPlayerPos(playerid, aX[playerid], aY[playerid], aZ[playerid]);
+        GetPlayerFacingAngle(playerid, aA[playerid]);
+        aI[playerid] = GetPlayerInterior(playerid);
+        //
+        SetPlayerPos(d, aX[playerid], aY[playerid], aZ[playerid]);
+        SetPlayerFacingAngle(d, aA[playerid]);
+        SetPlayerInterior(d, aI[playerid]);
+        //
+        new cargo[20];
+        cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
+        new formattext[200], formattextP[200], formattextA[200], name[MAX_PLAYER_NAME+1], nameAdmin[MAX_PLAYER_NAME+1];
+        //Coletando nomes
+        GetPlayerName(d, name, sizeof(name));
+        GetPlayerName(playerid, nameAdmin, sizeof(nameAdmin));
+        //
+        format(formattextP, sizeof(formattextP), "{%s}>> [%s] %s trouxe você.", Color(0), cargo, nameAdmin);
+        format(formattext, sizeof(formattext), "{%s}>> Você trouxe %s. para leva-lo(a) de volta, use /voltar", Color(0), name);
+        format(formattextA, sizeof(formattextA), "{%s}[Central] {FFFFFF}[%s] %s puxou [%d]%s.", Color(1), cargo, nameAdmin, d, name);
+        trouxe[d] = 1;
+        //Enviando mensagens
+        SendClientMessage(playerid, -1, formattextP);
+        SendClientMessage(playerid, -1, formattext);
+        if(ADMIN_MSG_IR == true) ToAdmins(formattextA);
+        
+        LogAdmin(playerid, "cmd", "trazer", "");
+    return 1;    
+    }
+
+    CMD:voltar(playerid, params[]){
+        if(logado[playerid] == 0) return 1;
+        if(Player[playerid][admin] < ADMIN_DIRETOR) return ComandoInvalido(playerid);
+
+        new d;
+        if(sscanf(params, "d[30]", d))
+          return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Use /voltar {FFFFFF}[Player ID]");
+
+        if(logado[d] == 0)
+          return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}a pessoa informada está desconectada.");
+
+        if(playerid == d)
+          return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Você não pode voltar a si mesmo(a).");
+
+        if(trouxe[d] == 0)
+          return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Esta pessoa não foi puxada por ninguém.");
+
+        SetPlayerPos(d, pX[d], pY[d], pZ[d]);
+        SetPlayerFacingAngle(d, pA[d]);
+        SetPlayerInterior(d, pI[d]);
+        trouxe[d] = 0;
+
+        new cargo[20];
+        cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
+        new formattext[200], formattextP[200], formattextA[200], name[MAX_PLAYER_NAME+1], nameAdmin[MAX_PLAYER_NAME+1];
+        //Coletando nomes
+        GetPlayerName(d, name, sizeof(name));
+        GetPlayerName(playerid, nameAdmin, sizeof(nameAdmin));
+        //
+        format(formattextP, sizeof(formattextP), "{%s}>> [%s] %s levou você de volta.", Color(0), cargo, nameAdmin);
+        format(formattext, sizeof(formattext), "{%s}>> Você levou %s ao seu local de origem.", Color(0), name);
+        format(formattextA, sizeof(formattextA), "{%s}[Central] {FFFFFF}[%s] %s levou [%d]%s ao seu local de origem.", Color(1), cargo, nameAdmin, d, name);
+        trouxe[d] = 1;
+        //Enviando mensagens
+        SendClientMessage(playerid, -1, formattextP);
+        SendClientMessage(playerid, -1, formattext);
+        if(ADMIN_MSG_IR == true) ToAdmins(formattextA);
+        
+        LogAdmin(playerid, "cmd", "voltar", "");
+     return 1;
     }

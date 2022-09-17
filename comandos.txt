@@ -3,3 +3,6 @@ ls
 lv
 setaradmin
 reiniciar
+ir
+trazer
+voltar

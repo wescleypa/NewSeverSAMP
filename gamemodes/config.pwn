@@ -149,6 +149,8 @@ Color(type)
     return COLOR;
 }
 
+//Defines mensagens admins
+#define ADMIN_MSG_IR true
 //Não mexa
 // dest[22];
 //NetStats_GetIp(playerid, dest, sizeof(dest));

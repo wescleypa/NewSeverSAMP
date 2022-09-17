@@ -8,12 +8,18 @@
 ../modules/player/global.pwn(70) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ../modules/global/spawns.pwn(8) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
 ../modules/global/spawns.pwn(12) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(45) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(65) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(71) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(78) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(144) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(146) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(12) : ïðåäóïðåæäåíèå 202: êîëè÷åñòâî àðãóìåíòîâ íå ñîâïàäàåò ñ îáúÿâëåíèåì
+../modules/player/comandos/admin/geral.pwn(49) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(69) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(75) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/player/comandos/admin/geral.pwn(82) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/player/comandos/admin/geral.pwn(148) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(150) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(191) : ïðåäóïðåæäåíèå 206: ëèøíèé êîä: ïîñòîÿííîå âûðàæåíèå èñòèííî
+../modules/player/comandos/admin/geral.pwn(238) : ïðåäóïðåæäåíèå 206: ëèøíèé êîä: ïîñòîÿííîå âûðàæåíèå èñòèííî
+../modules/player/comandos/admin/geral.pwn(241) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(280) : ïðåäóïðåæäåíèå 206: ëèøíèé êîä: ïîñòîÿííîå âûðàæåíèå èñòèííî
+../modules/player/comandos/admin/geral.pwn(283) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 c:\Users\Wescley Andrade\Desktop\ServerSAMP\gamemodes\server.pwn(11) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 c:\Users\Wescley Andrade\Desktop\ServerSAMP\gamemodes\server.pwn(13) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 c:\Users\Wescley Andrade\Desktop\ServerSAMP\gamemodes\server.pwn(180) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "DOF2_Exit"
@@ -22,4 +28,4 @@ C:\Users\Wescley Andrade\Desktop\ServerSAMP\pawno\include\dof2.inc(1085) : ïð�
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
 
-Ïðåäóïðåæäåíèé:9.
+Ïðåäóïðåæäåíèé:13.

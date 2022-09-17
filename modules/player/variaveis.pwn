@@ -13,3 +13,6 @@ enum PlayerInfo{
 new Player[MAX_PLAYERS][PlayerInfo];
 new CarAdmin[MAX_PLAYERS]; //Veículo criado via cmd
 new CriouCarAdmin[MAX_PLAYERS]; //Verifica se o admin já criou um veículo
+
+new Float:pX[MAX_PLAYERS], Float:pY[MAX_PLAYERS], Float:pZ[MAX_PLAYERS], Float:pA[MAX_PLAYERS], pI[MAX_PLAYERS],\
+trouxe[MAX_PLAYERS] = 0; //cmd admins
