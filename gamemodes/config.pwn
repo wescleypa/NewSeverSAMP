@@ -1,4 +1,3 @@
-new name[MAX_PLAYER_NAME];
 new MYSQL[20] = "true";
 new SQL_HOST[50] = "localhost";
 new SQL_USER[20] = "root";
@@ -13,14 +12,8 @@ new Float:SpawnY = 0.0;
 new Float:SpawnZ = 0.0;
 new Float:SpawnA = 0.0;
 new SpawnI = 0;
-new Float:DEFAULT_CAMERA_X = 0.0;
-new Float:DEFAULT_CAMERA_Y = 0.0;
-new Float:DEFAULT_CAMERA_Z = 0.0;
-new Float:DEFAULT_CAMERA_X_2 = 0.0;
-new Float:DEFAULT_CAMERA_Y_2 = 0.0;
-new Float:DEFAULT_CAMERA_Z_2 = 0.0;
 
-stock LoadConfig();
+ stock LoadConfig();
 public LoadConfig(){
     new loadConfig[200], config[300];
     format(loadConfig, sizeof(loadConfig), "config.ini");
@@ -47,13 +40,6 @@ public LoadConfig(){
       DOF2_SetFloat(config, "Default_Spawn_Z", 0.0);
       DOF2_SetFloat(config, "Default_Spawn_A", 0.0);
       DOF2_SetInt(config, "Default_Spawn_Interior", 0);
-      DOF2_SetFloat(config, "Default_Camera_X", 0.0);
-      DOF2_SetFloat(config, "Default_Camera_Y", 0.0);
-      DOF2_SetFloat(config, "Default_Camera_Z", 0.0);
-      DOF2_SetFloat(config, "Default_Camera_X_2", 0.0);
-      DOF2_SetFloat(config, "Default_Camera_Y_2", 0.0);
-      DOF2_SetFloat(config, "Default_Camera_Z_2", 0.0);
-
       DOF2_SaveFile();
     }else{
       format(MYSQL, sizeof(MYSQL), DOF2_GetString(config, "MySQL"));
@@ -61,7 +47,7 @@ public LoadConfig(){
       format(SQL_USER, sizeof(SQL_USER), DOF2_GetString(config, "MySQL_User"));
       format(SQL_PASS, sizeof(SQL_PASS), DOF2_GetString(config, "MySQL_Pass"));
       format(SQL_DB, sizeof(SQL_DB), DOF2_GetString(config, "MySQL_DB"));
-      format(SERVER_NAME, sizeof(SERVER_NAME), DOF2_GetString(config, "Server_Name"));
+      format(SERVER_NAME, sizeof(SERVER_NAME), DOF2_GetString(config, "Sever_Name"));
       format(MSG_COMMAND_INVALID, sizeof(MSG_COMMAND_INVALID), DOF2_GetString(config, "Msg_Command_Invalid"));
       DEFAULT_LEVEL = DOF2_GetInt(config, "Default_Level");
       DEFAULT_MONEY = DOF2_GetInt(config, "Default_Money");
@@ -70,13 +56,6 @@ public LoadConfig(){
       SpawnZ = DOF2_GetFloat(config, "Default_Spawn_Z");
       SpawnA = DOF2_GetFloat(config, "Default_Spawn_A");
       SpawnI = DOF2_GetInt(config, "Default_Spawn_Interior");
-      DEFAULT_CAMERA_X = DOF2_GetFloat(config, "Default_Camera_X");
-      DEFAULT_CAMERA_Y = DOF2_GetFloat(config, "Default_Camera_Y");
-      DEFAULT_CAMERA_Z = DOF2_GetFloat(config, "Default_Camera_Z");
-      DEFAULT_CAMERA_X_2 = DOF2_GetFloat(config, "Default_Camera_X_2");
-      DEFAULT_CAMERA_Y_2 = DOF2_GetFloat(config, "Default_Camera_Y_2");
-      DEFAULT_CAMERA_Z_2 = DOF2_GetFloat(config, "Default_Camera_Z_2");
-
     }
 }
 
@@ -94,8 +73,6 @@ public LoadConfig(){
 #define SpawnZ 0.0
 #define SpawnA 0.0
 #define SpawnI 7*/
-#define TIME_BLOCK_LOGIN 10 //TIME IN MINUTES - DEFAULT: 10
-#define Send(%0,%1,%2) SendClientMessage(%0,%1,%2)
 
 stock ComandoInvalido(playerid){
     new cmdinvalid[120];
@@ -112,9 +89,6 @@ stock ComandoInvalido(playerid){
 #define ADMIN_SUPERVISOR 5
 #define ADMIN_DIRETOR 6
 #define ADMIN_OWNER 7
-
-//Permissões admin
-#define PERM_ADMIN_VEHICLE 3 //permisao de controlar veiculos
 
 //Defines levels admin
 stock RankAdmin(genero, level)
@@ -171,13 +145,10 @@ Color(type)
     {
         case 0: COLOR = "045FB4"; //COLOR_WARN
         case 1: COLOR = "015EB5"; //COLOR_CENTRAL
-        case 2: COLOR = "7A378D"; // >> (tipo /eu)
     }
     return COLOR;
 }
 
-//Defines mensagens admins
-#define ADMIN_MSG_IR true
 //Não mexa
 // dest[22];
 //NetStats_GetIp(playerid, dest, sizeof(dest));

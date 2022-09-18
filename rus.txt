@@ -1,85 +1,33 @@
-C:\Users\Wescley Andrade\Desktop\ServerSAMP\pawno\include\SetVehicleAttachedObject.inc(21) : ïðåäóïðåæäåíèå 219: ïåðåìåííàÿ "vehicleid" óæå îáúÿâëåíà â áîëåå ãëîáàëüíîé çîíå âèäèìîñòè
-C:\Users\Wescley Andrade\Desktop\ServerSAMP\pawno\include\SetVehicleAttachedObject.inc(30) : ïðåäóïðåæäåíèå 219: ïåðåìåííàÿ "vehicleid" óæå îáúÿâëåíà â áîëåå ãëîáàëüíîé çîíå âèäèìîñòè
-C:\Users\Wescley Andrade\Desktop\ServerSAMP\pawno\include\SetVehicleAttachedObject.inc(38) : ïðåäóïðåæäåíèå 219: ïåðåìåííàÿ "vehicleid" óæå îáúÿâëåíà â áîëåå ãëîáàëüíîé çîíå âèäèìîñòè
-C:\Users\Wescley Andrade\Desktop\ServerSAMP\pawno\include\sscanf2.inc(149) : ïðåäóïðåæäåíèå 219: ïåðåìåííàÿ "name" óæå îáúÿâëåíà â áîëåå ãëîáàëüíîé çîíå âèäèìîñòè
-C:\Users\Wescley Andrade\Desktop\ServerSAMP\pawno\include\sscanf2.inc(193) : ïðåäóïðåæäåíèå 219: ïåðåìåííàÿ "name" óæå îáúÿâëåíà â áîëåå ãëîáàëüíîé çîíå âèäèìîñòè
-C:\Users\Wescley Andrade\Desktop\ServerSAMP\pawno\include\sscanf2.inc(236) : ïðåäóïðåæäåíèå 219: ïåðåìåííàÿ "name" óæå îáúÿâëåíà â áîëåå ãëîáàëüíîé çîíå âèäèìîñòè
-C:\Users\Wescley Andrade\Desktop\ServerSAMP\pawno\include\dof2.inc(510) : ïðåäóïðåæäåíèå 219: ïåðåìåííàÿ "name" óæå îáúÿâëåíà â áîëåå ãëîáàëüíîé çîíå âèäèìîñòè
 ../modules/global/geral.pwn(3) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/global/geral.pwn(53) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/global/geral.pwn(61) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/global/geral.pwn(55) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/global/geral.pwn(66) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/global/geral.pwn(69) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ../modules/global/geral.pwn(72) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-<<<<<<< HEAD
-../modules/global/geral.pwn(83) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/global/geral.pwn(93) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/global/geral.pwn(93) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/global/geral.pwn(94) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/global.pwn(46) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/global.pwn(109) : ïðåäóïðåæäåíèå 219: ïåðåìåííàÿ "vehicleid" óæå îáúÿâëåíà â áîëåå ãëîáàëüíîé çîíå âèäèìîñòè
-../modules/player/global.pwn(156) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/global.pwn(169) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/global.pwn(163) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "tt"
-../modules/player/global.pwn(172) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "playerid"
-../modules/player/global.pwn(187) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/global.pwn(191) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/global.pwn(232) : èäåíòèôèêàòîðó ïðèñâîåíî çíà÷åíèå, íî îí íå èñïîëüçóåòñÿ: "ge"
-../modules/player/global.pwn(232) : èäåíòèôèêàòîðó ïðèñâîåíî çíà÷åíèå, íî îí íå èñïîëüçóåòñÿ: "strP"
-../modules/player/global.pwn(232) -- (257) : ïðåäóïðåæäåíèå 209: ôóíêöèÿ "AdminVehicle" äîëæíà âîçâðàùàòü çíà÷åíèå
-../modules/player/access.pwn(22) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/access.pwn(26) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/access.pwn(43) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/access.pwn(45) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/access.pwn(73) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/global/spawns.pwn(9) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/global/spawns.pwn(13) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/global/spawns.pwn(17) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(12) : ïðåäóïðåæäåíèå 202: êîëè÷åñòâî àðãóìåíòîâ íå ñîâïàäàåò ñ îáúÿâëåíèåì
-../modules/player/comandos/admin/geral.pwn(54) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(74) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(80) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(87) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(93) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(172) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(174) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(215) : ïðåäóïðåæäåíèå 206: ëèøíèé êîä: ïîñòîÿííîå âûðàæåíèå èñòèííî
-../modules/player/comandos/admin/geral.pwn(262) : ïðåäóïðåæäåíèå 206: ëèøíèé êîä: ïîñòîÿííîå âûðàæåíèå èñòèííî
-../modules/player/comandos/admin/geral.pwn(265) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(304) : ïðåäóïðåæäåíèå 206: ëèøíèé êîä: ïîñòîÿííîå âûðàæåíèå èñòèííî
-../modules/player/comandos/admin/geral.pwn(307) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/player/geral.pwn(3) : ïðåäóïðåæäåíèå 202: êîëè÷åñòâî àðãóìåíòîâ íå ñîâïàäàåò ñ îáúÿâëåíèåì
-c:\Users\Wescley Andrade\Desktop\ServerSAMP\gamemodes\server.pwn(180) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "DOF2_Exit"
-C:\Users\Wescley Andrade\Desktop\ServerSAMP\pawno\include\dof2.inc(1085) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â DOF2_QuickSort
-=======
 ../modules/global/geral.pwn(72) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
 ../modules/global/geral.pwn(73) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
 ../modules/player/global.pwn(70) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ../modules/global/spawns.pwn(9) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
 ../modules/global/spawns.pwn(13) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
 ../modules/global/spawns.pwn(17) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(47) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(67) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(73) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(80) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(86) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
-../modules/player/comandos/admin/geral.pwn(91) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(95) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(107) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(110) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(91) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "nivel"
-../modules/player/comandos/admin/geral.pwn(91) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "para"
-../modules/player/comandos/admin/geral.pwn(175) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-../modules/player/comandos/admin/geral.pwn(177) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(48) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(68) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(74) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/player/comandos/admin/geral.pwn(81) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/player/comandos/admin/geral.pwn(87) : ïðåäóïðåæäåíèå 213: íåñîâïàäåíèå òèïîâ
+../modules/player/comandos/admin/geral.pwn(92) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(96) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(108) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(111) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(92) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "nivel"
+../modules/player/comandos/admin/geral.pwn(92) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "para"
+../modules/player/comandos/admin/geral.pwn(176) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+../modules/player/comandos/admin/geral.pwn(178) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 c:\Users\micae\OneDrive\Área de Trabalho\NewSeverSAMP\gamemodes\server.pwn(11) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 c:\Users\micae\OneDrive\Área de Trabalho\NewSeverSAMP\gamemodes\server.pwn(13) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 c:\Users\micae\OneDrive\Área de Trabalho\NewSeverSAMP\gamemodes\server.pwn(180) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "DOF2_Exit"
 C:\Users\micae\OneDrive\�rea de Trabalho\NewSeverSAMP\pawno\include\dof2.inc(1085) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â DOF2_QuickSort
->>>>>>> 195b8689821b3baacedc24f385ef330cc7fe420a
 Äëÿ îòêëþ÷åíèÿ âûâîäà ðåêóðñèé: #pragma disablerecursion
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 
 
-<<<<<<< HEAD
-Ïðåäóïðåæäåíèé:27.
-=======
 Ïðåäóïðåæäåíèé:11.
->>>>>>> 195b8689821b3baacedc24f385ef330cc7fe420a

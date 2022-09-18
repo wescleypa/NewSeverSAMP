@@ -42,15 +42,9 @@ stock fcreate(filename[])
   return true;
 }
 
-stock rand(number){
-  for(new i; i<number; i++)
-    return random(79) + 47;
-}
-
 stock LogAdmin(playerid, type[], content[], extra[]){
-  new DCC_Channel:g_Discord_Chat;
-      
-    new hour, minute, second,
+    new name[MAX_PLAYER_NAME+1],
+    hour, minute, second,
     day, month, year;
     gettime(hour, minute, second);
     getdate(day, month, year);
@@ -69,26 +63,11 @@ stock LogAdmin(playerid, type[], content[], extra[]){
       sscanf(extra, "s", extr);
     }
 
-      if(strcmp(type, "cmd", true) == 0  && strlen(extra) <= 0){
+      if(strcmp(type, "cmd", true) == 0  && strlen(extra) <= 0)
         format(log, sizeof(log), "%s [CMD] %s usou o comando /%s às %02d:%02d:%02d", date, name, content, hour, minute, second);
 
-      //Discord
-	    if (_:g_Discord_Chat == 0)
-	    g_Discord_Chat = DCC_FindChannelById("1021144011064496228"); // Discord channel ID
-	    new string[128];
-	    format(string, sizeof string, " %s usou o comando /%s", name, content);
-	    DCC_SendChannelMessage(g_Discord_Chat, string);
-      }
-
- else if(strcmp(type, "cmd", true) == 0  && strlen(extra) >= 0){
+ else if(strcmp(type, "cmd", true) == 0  && strlen(extra) >= 0)
         format(log, sizeof(log), "%s [CMD] %s usou o comando /%s às %02d:%02d:%02d em: %s", date, name, content, hour, minute, second, extr);
-  //Discord
-	    if (_:g_Discord_Chat == 0)
-	    g_Discord_Chat = DCC_FindChannelById("1021144011064496228"); // Discord channel ID
-	    new string[128];
-	    format(string, sizeof string, " %s usou o comando /%s em %s", name, content, extr);
-	    DCC_SendChannelMessage(g_Discord_Chat, string);
- }
    
     fwrite(fileLog, log);
     fclose(fileLog);
