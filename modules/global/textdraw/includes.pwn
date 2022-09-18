@@ -1,0 +1,1 @@
+#include "../modules/global/textdraw/register.pwn" //Tela de registro

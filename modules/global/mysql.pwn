@@ -1,4 +1,6 @@
 #define SQL_TABLE_PLAYER "contas"
+#define SQL_TABLE_BLOCK "bloqueios"
+
 new MySQL:conexao;
 
 //Conexão MySQL

@@ -4,12 +4,13 @@
 
 main() return print("\n[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201\n\
 	e Micael SaydeN\n");
-
+	
 public OnGameModeInit()
 {
-	LoadConfig();
-	/*if(MYSQL == "true")*/ Conecta();
 	
+	LoadConfig();
+	loadGtextdraw();
+	Conecta();
     return 1;
 }
 

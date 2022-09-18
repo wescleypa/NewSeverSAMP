@@ -1,127 +1,84 @@
-new tentativas[MAX_PLAYERS] = 1;
-
 public OnPlayerConnect(playerid)
 {
+	LoadMarks(playerid);
+	new sql_acess[100],
+	strola[MAX_PLAYERS];
+	GetPlayerName(playerid, name, sizeof(name));
+
+	new ip[MAX_PLAYERS];
+    GetPlayerIp(playerid, ip[playerid], 30);
+
+	for(new i; i < 10; i++) Send(playerid,-1,""); //clear chat
+	LoadPTextdraw(playerid); //Load textdraws
+	TogglePlayerSpectating(playerid, 1); //Spactate
 	SetSpawnInfo(playerid, 0, 0, Player[playerid][dX],\
 	Player[playerid][dY], Player[playerid][dZ], Player[playerid][dA], 0, 0, 0, 0, 0, 0); //Não mexa
 	
 	//Verificando dados
-	new sql_acess[100], name[MAX_PLAYER_NAME + 1];
-	GetPlayerName(playerid, name, sizeof(name));
-	
+
 	format(sql_acess, sizeof(sql_acess), "SELECT `username`, `password` FROM `%s` WHERE username='%s'", SQL_TABLE_PLAYER, name);
 	mysql_query(conexao, sql_acess);
 
+		format(strola[playerid], sizeof(strola), "Ola %s", name);
+		PlayerTextDrawSetString(playerid, RegisterPTD[playerid][1], name);
+		PlayerTextDrawSetString(playerid, RegisterPTD[playerid][2], strola[playerid]);
+		TextDrawSetString(RegisterTD[4], SERVER_NAME);
 	if(cache_num_rows() > 0){
 		cache_get_value_name(0, "password", Player[playerid][password], 24); //Pega senha do usuário
-		new bvindas[50], msgwelcome[200];
-		format(bvindas, sizeof(bvindas), "Boas vindas ao %s", SERVER_NAME);
-		format(msgwelcome, sizeof(msgwelcome), "\
-		{298A08}Notamos que você já possuí visto em nosso País,\n\
-		{FFFFFF}portanto, Faça Login digitando sua senha abaixo.");
-
-		ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, bvindas, msgwelcome, "Entrar", "Cancelar");
-	}else{
-		new bvindas[50];
-		format(bvindas, sizeof(bvindas), "Boas vindas ao %s", SERVER_NAME);
-		ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, bvindas, "\
-		{8A0808}Notamos que você não possuí visto em nosso País,\n\
-		{FFFFFF}portanto, Registre-se digitando uma senha abaixo.", "Registrar", "Cancelar");
+		PlayerTextDrawSetString(playerid, RegisterPTD[playerid][6], "\
+		Notamos que voce ja tem visto em nosso pais, portanto, digite sua senha abaixo");
+		PlayerTextDrawSetString(playerid, RegisterPTD[playerid][4], "ENTRAR");
+		cadastrando[playerid] = 1;
+	}else{		
+		cadastrando[playerid] = 2;
 	}
+	for(new i=0; i<9; i++){
+		TextDrawShowForPlayer(playerid, RegisterTD[i]);
+	}
+	for(new i=0; i<7; i++){
+		PlayerTextDrawShow(playerid, RegisterPTD[playerid][i]);
+		SelectTextDraw(playerid, 0x015EB5FF);
+	}
+		InterpolateCameraPos(playerid, DEFAULT_CAMERA_X, DEFAULT_CAMERA_Y, DEFAULT_CAMERA_Z,\
+		DEFAULT_CAMERA_X_2, DEFAULT_CAMERA_Y_2, DEFAULT_CAMERA_Z_2, 30000, CAMERA_MOVE);
+
 	return 1;
 }
 
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
-  new name[MAX_PLAYER_NAME + 1];
   GetPlayerName(playerid, name, sizeof(name));
 
-  if (dialogid == DIALOG_LOGIN)
-  {
-  	if(strlen(inputtext) != 0)
-    {
-       if(!strcmp(Player[playerid][password], inputtext, true, 24)) //Compara a senha do usuário com a digitada
-       {
-		//Buscando dados do usuário
-			ColetaDados(playerid);
-		//
-	   }else{
-		  if(tentativas[playerid] >= 5){
-			Kick(playerid);
-		  }else{
-			new msgerror[300];
-			tentativas[playerid] += 1;
-			format(msgerror, sizeof(msgerror), "\
-			{DF0101}A senha digitada não confere.\n\
-			{FFFFFF}Você tem mais {DF0101}%d{FFFFFF} tentativas,\n\
-			caso exceda todas tentativas, terá seu acesso bloqueado por segurança.\n\n\
-			{0489B1}Deseja tentar novamente ?", (6-tentativas[playerid]));
-			ShowPlayerDialog(playerid, DIALOG_LOGIN_ERROR, DIALOG_STYLE_MSGBOX, "ERRO - Dados inválidos", msgerror, "Sim", "Cancelar");
-		  }
-	   }
-    }else{
-       
-    }
-    return 1;
-  }
-  //Dialog após erro de Login
-  else if(dialogid == DIALOG_LOGIN_ERROR){
-	if (response)
-    {
-      new bvindas[50], msgerror[300];
-	  format(msgerror, sizeof(msgerror), "\
-	  {298A08}Notamos que você já possuí visto em nosso País,\n\
-	  {FFFFFF}portanto, Faça Login digitando sua senha abaixo.\n\n\
-	  Obs: Note que essa é sua {DF0101}%d°{FFFFFF} tentativa de Login,\n\
-	  caso exceda {DF0101}5{FFFFFF}, terá seu acesso bloqueado por segurança.", tentativas[playerid]);
+  //Dialog Register TXD
+  if(dialogid == DIALOG_REGISTER_TXD){
+	if(!response)
+	  return SelectTextDraw(playerid, 0x015EB5FF);
+	  
+	else if(strlen(inputtext) > 24)
+	  return ShowPlayerDialog(playerid, DIALOG_REGISTER_TXD, DIALOG_STYLE_INPUT, "Senha muito longa", "\
+	  {8A0808}A senha digita é muito longa!,\n\
+	  {FFFFFF}A senha escolhida é muito longa, sua senha deve ser menor de 24 caracteres.", "Registrar", "Cancelar");
 
-	  format(bvindas, sizeof(bvindas), "%d° Tentativa de Login", tentativas[playerid]);
-	  ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, bvindas, msgerror, "Entrar", "Cancelar");
-    }
-    else 
-    {
-	  SendClientMessage(playerid, -1, "Você foi desconectado porque recusou realizar Login");
-      Kick(playerid);
-    }
-	return 1;
-  }  
-
-  //Dialog Register
-  else if(dialogid == DIALOG_REGISTER){
-	if(strlen(inputtext) != 0)
-    {
-      if(strlen(inputtext) > 24){
-		ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Senha muito longa", "\
-		{8A0808}A senha digita é muito longa!,\n\
-		{FFFFFF}A senha escolhida é muito longa, sua senha deve ser menor de 24 caracteres.", "Registrar", "Cancelar");
-	  }else{
-		new sql_insert[300];
-		format(sql_insert, sizeof(sql_insert), "\
-		INSERT INTO `contas`(`username`, `password`,\
-		`money`, `level`, `dX`, `dY`, `dZ`, `dA`, `dI`, `admin`, `genre`) VALUES (\
-		'%s', '%s', '%d', '%d', '%f', '%f', '%f', '%f', '%d', '0', '1')", name, inputtext, DEFAULT_MONEY, DEFAULT_LEVEL,
-		SpawnX, SpawnY, SpawnZ, SpawnA, SpawnI);
-		mysql_query(conexao, sql_insert, false);
-		//Fazendo Login
-		cache_get_value_name(0, "password", Player[playerid][password]); //Pega senha do usuário
-		new bvindas[50];
-		format(bvindas, sizeof(bvindas), "Boas vindas ao %s", SERVER_NAME);
-		ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, bvindas, "\
-		{298A08}Notamos que você já possuí visto em nosso País,\n\
-		{FFFFFF}portanto, Faça Login digitando sua senha abaixo.", "Entrar", "Cancelar");
-		//
-		logado[playerid] = 0;
-	  }
-	}else{
-
+	else if(strlen(inputtext) < 8)
+	  return ShowPlayerDialog(playerid, DIALOG_REGISTER_TXD, DIALOG_STYLE_INPUT, "Senha muito curta", "\
+	  {8A0808}A senha digita é muito curta!,\n\
+	  {FFFFFF}A senha escolhida é muito curta, sua senha deve ser maior de 8 caracteres.", "Registrar", "Cancelar");
+	
+	else if(response && strlen(inputtext) >= 8)
+	{ 
+		sscanf(inputtext, "s", PASS[playerid]);
+		PlayerTextDrawSetString(playerid, RegisterPTD[playerid][3], PASS[playerid]);
+	    SelectTextDraw(playerid, 0x015EB5FF);
 	}
-  }   
+  return 1;
+  } 
+
   return 0;
 }
 
 ColetaDados(playerid){
 
-	new sql_acess[300], name[MAX_PLAYER_NAME + 1];
+	new sql_acess[300];
 	GetPlayerName(playerid, name, sizeof(name));
 
 	format(sql_acess, sizeof(sql_acess), "SELECT *\
@@ -144,9 +101,12 @@ ColetaDados(playerid){
 }
 
 SetaDados(playerid){
+	SetSpawnInfo(playerid, 0, 0, Player[playerid][dX],\
+	Player[playerid][dY], Player[playerid][dZ], Player[playerid][dA], 0, 0, 0, 0, 0, 0); //Não mexa
+
 	GivePlayerMoney(playerid, Player[playerid][money]);
 	SetPlayerScore(playerid, Player[playerid][level]);
-
+	
 	Spawn(playerid);
 	logado[playerid] = 1;
 }

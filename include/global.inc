@@ -12,12 +12,16 @@
 #include                "mailer.inc"
 #include                <a_mysql>
 #include <dof2>
+#include <discord-connector>
+#include <discord-cmd>
 
 //Modules
 //--------  CONFIG	-------//
 #include "../gamemodes/config.pwn"
 #include "../modules/global/dialogs.pwn"
 //--------	Modules -------//
+#include "../modules/global/textdraw/includes.pwn" //Textdraws globais
+#include "../modules/player/textdraw/includes.pwn" //Textdraws player
 #include "../modules/global/mysql.pwn"
 #include "../modules/global/variaveis.pwn" //Variaveis globais
 #include "../modules/global/includes.pwn"  //Includes globais

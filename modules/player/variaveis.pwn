@@ -15,4 +15,9 @@ new CarAdmin[MAX_PLAYERS]; //Veículo criado via cmd
 new CriouCarAdmin[MAX_PLAYERS]; //Verifica se o admin já criou um veículo
 
 new Float:pX[MAX_PLAYERS], Float:pY[MAX_PLAYERS], Float:pZ[MAX_PLAYERS], Float:pA[MAX_PLAYERS], pI[MAX_PLAYERS],\
-trouxe[MAX_PLAYERS] = 0; //cmd admins
+trouxe[MAX_PLAYERS] = 0, //cmd admins
+PASS[MAX_PLAYERS], //password create player
+cadastrando[MAX_PLAYERS], //verifica se é cadastro ou login
+blocked[30], blockedR[30], blockedT[30],
+playerstate[MAX_PLAYERS], //status no veículo (motorista ou passageiro)
+vehicleid[MAX_PLAYERS];

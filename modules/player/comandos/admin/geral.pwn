@@ -16,6 +16,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
 
 
 
+
     CMD:criarveiculo(playerid, params[]) { //Criar veículo
   
         if(logado[playerid] == 0) return 1;
@@ -42,7 +43,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
         PutPlayerInVehicle(playerid, CarAdmin[playerid], 0);
         CriouCarAdmin[playerid] = 1;
 
-        new cargo[30], name[MAX_PLAYER_NAME+1];
+        new cargo[30];
         GetPlayerName(playerid, name, sizeof(name));
         cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
         new formatmsg[120];
@@ -63,7 +64,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
       DestroyVehicle(CarID);
       LogAdmin(playerid, "cmd", "destruirveiculo", "");
 
-      new cargo[30], name[MAX_PLAYER_NAME+1];
+      new cargo[30];
       GetPlayerName(playerid, name, sizeof(name));
       cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
       new formatmsg[120];
@@ -92,37 +93,6 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
         ToSpawn(playerid, sf);
         return 1;
     }
-    CMD:pos(playerid, params[]){ 
-    if(logado[playerid] == 0) return 1;
-        new para, nivel;
-
-        if(Player[playerid][admin] < ADMIN_DIRETOR) return ComandoInvalido(playerid);
-
-    new Float:X,Float:Y,Float:Z,Float:R, Veh = GetPlayerVehicleID(playerid);
-    if(!IsPlayerInAnyVehicle(playerid))
-    {
-        GetPlayerPos(playerid, X,Y,Z);
-        GetPlayerFacingAngle(playerid, R);
-    }
-    else
-    {
-        GetVehiclePos(Veh, X,Y,Z);
-        GetVehicleZAngle(Veh, R);
-    }
-    new mensagem[120];
-   format(mensagem, sizeof(mensagem), "X: %f, Y: %f, Z: %f, A: %f", X, Y, Z, R);
-   SendClientMessage(playerid, -1, mensagem);
-  
-    return 1;
-}
-<<<<<<< HEAD
-
-    CMD:sf(playerid){ //Vai até San Fierro
-        if(logado[playerid] == 0) return 1;
-        if(Player[playerid][admin] < 1) return ComandoInvalido(playerid);
-        ToSpawn(playerid, sf);
-        return 1;
-    }
 
     CMD:pos(playerid){ 
     if(logado[playerid] == 0) return 1;
@@ -130,14 +100,12 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
 
     new Float:X, Float:Y, Float:Z, Float:A;
     GetPlayerPos(playerid, X,Y,Z);
-    GetPlayerFacingAngle(playerid, R);
+    GetPlayerFacingAngle(playerid, A);
     new mensagem[120];
-    format(mensagem, sizeof(mensagem), "X: %f, Y: %f, Z: %f, A: %f", X, Y, Z, R);
+    format(mensagem, sizeof(mensagem), "X: %f, Y: %f, Z: %f, A: %f", X, Y, Z, A);
     SendClientMessage(playerid, -1, mensagem); 
     return 1;
     }
-=======
->>>>>>> 195b8689821b3baacedc24f385ef330cc7fe420a
 
     CMD:setaradmin(playerid, params[]){ //Promove alguém à admin
         if(logado[playerid] == 0) return 1;
@@ -159,7 +127,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
 
         Player[para][admin] = nivel;
         new msgadminsetou[120], msgadminsetou2[120], cargo[20],\
-        cargo2[20], name[MAX_PLAYER_NAME+1], namequem[MAX_PLAYER_NAME+1];
+        cargo2[20], namequem[MAX_PLAYER_NAME+1];
 
         GetPlayerName(playerid, name, sizeof(name));  //Nome do responsável
         GetPlayerName(para, namequem, sizeof(namequem));  //Nome do receptor
@@ -200,7 +168,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
     gmxagora = true;
     Reiniciar(s);
     //Log
-    new log[250], name[MAX_PLAYER_NAME+1];
+    new log[250];
             GetPlayerName(playerid, name, sizeof(name));  //Nome do responsável
 
     format(log, sizeof(log), "[CMD] %s usou o comando /reiniciar", name);
@@ -233,7 +201,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
     //
     new cargo[20];
     cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
-    new formattext[200], formattextP[200], formattextA[200], name[MAX_PLAYER_NAME+1], nameAdmin[MAX_PLAYER_NAME+1];
+    new formattext[200], formattextP[200], formattextA[200], nameAdmin[MAX_PLAYER_NAME+1];
     //Coletando nomes
     GetPlayerName(d, name, sizeof(name));
     GetPlayerName(playerid, nameAdmin, sizeof(nameAdmin));
@@ -279,7 +247,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
         //
         new cargo[20];
         cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
-        new formattext[200], formattextP[200], formattextA[200], name[MAX_PLAYER_NAME+1], nameAdmin[MAX_PLAYER_NAME+1];
+        new formattext[200], formattextP[200], formattextA[200], nameAdmin[MAX_PLAYER_NAME+1];
         //Coletando nomes
         GetPlayerName(d, name, sizeof(name));
         GetPlayerName(playerid, nameAdmin, sizeof(nameAdmin));
@@ -321,7 +289,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
 
         new cargo[20];
         cargo = RankAdmin(Player[playerid][genre], Player[playerid][admin]);
-        new formattext[200], formattextP[200], formattextA[200], name[MAX_PLAYER_NAME+1], nameAdmin[MAX_PLAYER_NAME+1];
+        new formattext[200], formattextP[200], formattextA[200], nameAdmin[MAX_PLAYER_NAME+1];
         //Coletando nomes
         GetPlayerName(d, name, sizeof(name));
         GetPlayerName(playerid, nameAdmin, sizeof(nameAdmin));
@@ -337,6 +305,20 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
         
         LogAdmin(playerid, "cmd", "voltar", "");
      return 1;
+    }
+
+    CMD:adm(playerid, params[], ud[]){
+      if(Player[playerid][admin] <= 0) return ComandoInvalido(playerid);
+      new s, d;
+      if(sscanf(params, "s[30]", s))
+        return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Use /adm {FFFFFF}[tipo] Ex: /adm motor. ou use o /Admin");
+
+      if(strcmp(params, "motor", true) == 0){
+        if(sscanf(ud, "s[30]", d))
+           return SendClientMessage(playerid, -1, "{B30404}[!] {FFFFFF}Use /adm motor [ID VEICULO]");
+        AdminVehicle(playerid, d, params);
+      }
+      return 1;
     }
 
     /*CMD:levar(playerid, params[]){
