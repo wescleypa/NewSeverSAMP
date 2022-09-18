@@ -15108,3 +15108,85 @@ e Micael SaydeN
 [19:08:14] [connection] incoming connection: 26.184.72.89:61244 id: 1
 [19:08:14] [join] MicaeL has joined the server (1:26.184.72.89)
 [19:08:36] [part] MicaeL has left the server (1:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:08:50] 
+[19:08:50] Server Plugins
+[19:08:50] --------------
+[19:08:50]  Loading plugin: mysql
+[19:08:50]  >> plugin.mysql: R41-4 successfully loaded.
+[19:08:50]   Loaded.
+[19:08:50]  Loading plugin: sscanf
+[19:08:50] 
+
+[19:08:50]  ===============================
+
+[19:08:50]       sscanf plugin loaded.     
+
+[19:08:50]          Version:  2.8.3        
+
+[19:08:50]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:08:50]  ===============================
+
+[19:08:50]   Loaded.
+[19:08:50]  Loading plugin: streamer
+[19:08:50] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[19:08:50]   Loaded.
+[19:08:50]  Loading plugin: Discord-Connector
+[19:08:51]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[19:08:51]   Loaded.
+[19:08:51]  Loaded 4 plugins.
+
+[19:08:51] 
+[19:08:51] Filterscripts
+[19:08:51] ---------------
+[19:08:51]   Loading filterscript 'WL.amx'...
+[19:08:51]   Loading filterscript 'countplayer.amx'...
+[19:08:51]   Loaded 2 filterscripts.
+
+[19:08:51] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[19:08:51] 
+[!] Gamemode iniciada em 10/09/2022 por Wescley Andrade +55 (19) 99187-5201
+e Micael SaydeN
+
+[19:08:51] Number of vehicle models: 0
+[19:09:04] [connection] 127.0.0.1:56067 requests connection cookie.
+[19:09:05] [connection] incoming connection: 127.0.0.1:56067 id: 0
+[19:09:05] [join] Tester has joined the server (0:127.0.0.1)
+[19:09:09] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:09:17] sscanf warning: Format specifier does not match parameter count.
+[19:09:17] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:09:26] [connection] 26.184.72.89:55101 requests connection cookie.
+[19:09:27] [connection] incoming connection: 26.184.72.89:55101 id: 1
+[19:09:28] [join] MicaeL has joined the server (1:26.184.72.89)
+[19:09:37] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:09:46] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:10:05] sscanf warning: Format specifier does not match parameter count.
+[19:10:05] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:10:12] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[19:10:19] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[19:10:21] 
+[MySQL] Banco de dados conectado com sucesso.
+
+[19:10:32] sscanf warning: Format specifier does not match parameter count.
+[19:10:32] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:13:28] 
+[MySQL] Banco de dados conectado com sucesso.
+
