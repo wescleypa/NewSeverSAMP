@@ -17,6 +17,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
 
 
 
+
     CMD:criarveiculo(playerid, params[]) { //Criar veículo
   
         if(logado[playerid] == 0) return 1;
@@ -93,6 +94,7 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
         ToSpawn(playerid, sf);
         return 1;
     }
+<<<<<<< HEAD
 
     CMD:pos(playerid){ 
     if(logado[playerid] == 0) return 1;
@@ -106,6 +108,31 @@ public OnPlayerCommandPerformed(playerid, cmdtext[], success)
     SendClientMessage(playerid, -1, mensagem); 
     return 1;
     }
+=======
+    CMD:pos(playerid, params[]){ 
+    if(logado[playerid] == 0) return 1;
+        new para, nivel;
+
+        if(Player[playerid][admin] < ADMIN_DIRETOR) return ComandoInvalido(playerid);
+
+    new Float:X,Float:Y,Float:Z,Float:R, Veh = GetPlayerVehicleID(playerid);
+    if(!IsPlayerInAnyVehicle(playerid))
+    {
+        GetPlayerPos(playerid, X,Y,Z);
+        GetPlayerFacingAngle(playerid, R);
+    }
+    else
+    {
+        GetVehiclePos(Veh, X,Y,Z);
+        GetVehicleZAngle(Veh, R);
+    }
+    new mensagem[120];
+   format(mensagem, sizeof(mensagem), "X: %f, Y: %f, Z: %f, A: %f", X, Y, Z, R);
+   SendClientMessage(playerid, -1, mensagem);
+  
+    return 1;
+}
+>>>>>>> 195b8689821b3baacedc24f385ef330cc7fe420a
 
     CMD:setaradmin(playerid, params[]){ //Promove alguém à admin
         if(logado[playerid] == 0) return 1;
